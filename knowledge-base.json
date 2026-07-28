@@ -1,0 +1,922 @@
+[
+  {
+    "chunk_id": "profile_001",
+    "category": "tutor_profile",
+    "subcategory": "core_info",
+    "user_query": "Who is Wali?",
+    "mapped_context": "Wali is a GCSE and KS3 Maths tutor teaching online lessons in the UK. He supports AQA, Edexcel, and OCR exam boards. Lessons are 60 minutes long and focus on: step-by-step explanations, building confidence in weak students, improving exam technique, and targeted topic improvement.",
+    "expected_answer": "Wali is an online GCSE and KS3 Maths tutor based in the UK who supports the AQA, Edexcel, and OCR exam boards. His 60-minute lessons focus on providing step-by-step explanations, helping weak students regain confidence, refining exam techniques, and delivering targeted topic improvements."
+  },
+  {
+    "chunk_id": "profile_002",
+    "category": "tutor_profile",
+    "subcategory": "core_info",
+    "user_query": "math tutor gcse online",
+    "mapped_context": "Wali is a GCSE and KS3 Maths tutor teaching online lessons in the UK. He supports AQA, Edexcel, and OCR exam boards. Lessons are 60 minutes long and focus on: step-by-step explanations, building confidence in weak students, improving exam technique, and targeted topic improvement.",
+    "expected_answer": "Wali is an online GCSE and KS3 Maths tutor based in the UK who supports the AQA, Edexcel, and OCR exam boards. His 60-minute lessons focus on providing step-by-step explanations, helping weak students regain confidence, refining exam techniques, and delivering targeted topic improvements."
+  },
+  {
+    "chunk_id": "profile_003",
+    "category": "tutor_profile",
+    "subcategory": "core_info",
+    "user_query": "Does Wali do tutoring in the UK?",
+    "mapped_context": "Wali is a GCSE and KS3 Maths tutor teaching online lessons in the UK.",
+    "expected_answer": "Yes, Wali is based in the UK and delivers online math tutoring specifically aligned to the UK school curriculum systems."
+  },
+  {
+    "chunk_id": "credentials_001",
+    "category": "tutor_profile",
+    "subcategory": "qualifications",
+    "user_query": "What are the tutor's teaching qualifications and university degrees?",
+    "mapped_context": "Wali is a fully PGCE-qualified mathematics teacher with active UK Qualified Teacher Status (QTS). Furthermore, he is an academic graduate of Imperial College London, one of the world's premier STEM institutions.",
+    "expected_answer": "Wali is a fully PGCE-qualified math teacher and an academic graduate from Imperial College London."
+  },
+  {
+    "chunk_id": "levels_001",
+    "category": "tutor_profile",
+    "subcategory": "taught_levels",
+    "user_query": "What ages or levels do you teach?",
+    "mapped_context": "Wali is a GCSE and KS3 Maths tutor teaching online lessons in the UK.",
+    "expected_answer": "Wali specializes in teaching Key Stage 3 (KS3) and GCSE level mathematics to students in the UK."
+  },
+  {
+    "chunk_id": "lesson_format_001",
+    "category": "lesson_structure",
+    "subcategory": "duration",
+    "user_query": "Can you tell me what a typical 60 minute lesson looks like?",
+    "mapped_context": "Lessons are 60 minutes long and focus on: step-by-step explanations, building confidence in weak students, improving exam technique, and targeted topic improvement.",
+    "expected_answer": "Wali's lessons are 60 minutes long. They are designed to focus on clear step-by-step explanations, boosting the confidence of struggling students, improving exam technique, and zeroing in on targeted topic improvements."
+  },
+  {
+    "chunk_id": "lesson_format_002",
+    "category": "lesson_structure",
+    "subcategory": "duration",
+    "user_query": "Do you offer 45 minute or 90 minute sessions?",
+    "mapped_context": "Lessons are 60 minutes long and focus on: step-by-step explanations, building confidence in weak students, improving exam technique, and targeted topic improvement.",
+    "expected_answer": "Standard lessons are strictly 60 minutes long to maximize focus on step-by-step explanations, exam technique, and topic improvement."
+  },
+  {
+    "chunk_id": "lesson_focus_001",
+    "category": "lesson_structure",
+    "subcategory": "learning_objectives",
+    "user_query": "What are the main goals of your math tutoring?",
+    "mapped_context": "Lessons are 60 minutes long and focus on: step-by-step explanations, building confidence in weak students, improving exam technique, and targeted topic improvement.",
+    "expected_answer": "The primary goals of the tutoring sessions are providing step-by-step explanations, building confidence in weaker students, perfecting exam techniques, and achieving targeted topic improvement."
+  },
+  {
+    "chunk_id": "lesson_focus_002",
+    "category": "lesson_structure",
+    "subcategory": "learning_objectives",
+    "user_query": "How can I improve my child's exam strategy?",
+    "mapped_context": "Lessons are 60 minutes long and focus on: step-by-step explanations, building confidence in weak students, improving exam technique, and targeted topic improvement.",
+    "expected_answer": "Wali's 60-minute tutoring lessons explicitly prioritize and focus on improving proper exam technique alongside targeted topic improvement."
+  },
+  {
+    "chunk_id": "lesson_focus_003",
+    "category": "lesson_structure",
+    "subcategory": "learning_objectives",
+    "user_query": "What do your 60-minute classes specialize in?",
+    "mapped_context": "Lessons are 60 minutes long and focus on: step-by-step explanations, building confidence in weak students, improving exam technique, and targeted topic improvement.",
+    "expected_answer": "The 60-minute sessions specialize directly in clear step-by-step explanations, cultivating confidence within struggling students, optimizing exam board techniques, and delivering targeted topic improvements."
+  },
+  {
+    "chunk_id": "exams_001",
+    "category": "exam_boards",
+    "subcategory": "supported_boards",
+    "user_query": "What boards are taught?",
+    "mapped_context": "He supports AQA, Edexcel, and OCR exam boards.",
+    "expected_answer": "Wali supports the AQA, Edexcel, and OCR exam boards for GCSE tutoring."
+  },
+  {
+    "chunk_id": "exams_002",
+    "category": "exam_boards",
+    "subcategory": "supported_boards",
+    "user_query": "What exam specs do you cover?",
+    "mapped_context": "Tutoring is available for the following GCSE exam boards: AQA, Edexcel, OCR.",
+    "expected_answer": "Wali covers the specific exam syllabi for the AQA, Edexcel, and OCR GCSE mathematics boards."
+  },
+  {
+    "chunk_id": "exams_003",
+    "category": "exam_boards",
+    "subcategory": "supported_boards",
+    "user_query": "Does the tutor teach the standard school boards?",
+    "mapped_context": "He supports AQA, Edexcel, and OCR exam boards.",
+    "expected_answer": "Yes, his tutoring structure natively aligns with the UK's major school boards: AQA, Edexcel, and OCR."
+  },
+  {
+    "chunk_id": "exams_004",
+    "category": "exam_boards",
+    "subcategory": "supported_boards",
+    "user_query": "Are you familiar with the GCSE maths exam boards?",
+    "mapped_context": "He supports AQA, Edexcel, and OCR exam boards.",
+    "expected_answer": "Yes, Wali is thoroughly experienced with the specific curriculum requirements of the three major GCSE boards: AQA, Edexcel, and OCR."
+  },
+  {
+    "chunk_id": "exams_aqa_001",
+    "category": "exam_boards",
+    "subcategory": "aqa",
+    "user_query": "My school does AQA math, can you help?",
+    "mapped_context": "Tutoring is available for the following GCSE exam boards: AQA, Edexcel, OCR.",
+    "expected_answer": "Yes, absolutely! Wali routinely teaches the complete curriculum for the AQA GCSE math exam board."
+  },
+  {
+    "chunk_id": "exams_edexcel_001",
+    "category": "exam_boards",
+    "subcategory": "edexcel",
+    "user_query": "Do you teach Edexcel linear maths?",
+    "mapped_context": "Tutoring is available for the following GCSE exam boards: AQA, Edexcel, OCR.",
+    "expected_answer": "Yes, Wali fully supports the Edexcel exam board curriculum for GCSE math tutoring."
+  },
+  {
+    "chunk_id": "exams_ocr_001",
+    "category": "exam_boards",
+    "subcategory": "ocr",
+    "user_query": "Is this syllabus for OCR?",
+    "mapped_context": "Tutoring is available for the following GCSE exam boards: AQA, Edexcel, OCR.",
+    "expected_answer": "Yes, the tutoring is aligned with and supports the official OCR GCSE mathematics exam board syllabus."
+  },
+  {
+    "chunk_id": "exams_igcse_001",
+    "category": "exam_boards",
+    "subcategory": "other_boards",
+    "user_query": "Do you do IGCSE Cambridge or Edexcel International?",
+    "mapped_context": "Tutoring is available for the following GCSE exam boards: AQA, Edexcel, and OCR.",
+    "expected_answer": "The dataset currently only confirms support for UK domestic GCSE boards: AQA, Edexcel, and OCR. For specific IGCSE variants, please contact Wali directly at 07400 123456."
+  },
+  {
+    "chunk_id": "pricing_1to1_001",
+    "category": "pricing",
+    "subcategory": "one_to_one",
+    "user_query": "maths tuition fees",
+    "mapped_context": "1-to-1 GCSE maths tutoring costs £30 per hour. Each lesson is individually tailored to the student's needs, focusing on weak topics, exam preparation, and improving confidence.",
+    "expected_answer": "Private, 1-to-1 GCSE maths tutoring costs £30 per hour, which provides a tailored lesson focused on the student's unique weak topics, confidence, and exam prep."
+  },
+  {
+    "chunk_id": "pricing_1to1_002",
+    "category": "pricing",
+    "subcategory": "one_to_one",
+    "user_query": "How much do you charge for an individual student?",
+    "mapped_context": "1-to-1 GCSE maths tutoring costs £30 per hour. Each lesson is individually tailored to the student's needs, focusing on weak topics, exam preparation, and improving confidence.",
+    "expected_answer": "For an individual student, private 1-to-1 GCSE tutoring is priced at £30 per hour. This includes highly tailored support suited to their personal learning speed."
+  },
+  {
+    "chunk_id": "pricing_1to1_003",
+    "category": "pricing",
+    "subcategory": "one_to_one",
+    "user_query": "What's the cost of private lessons?",
+    "mapped_context": "1-to-1 GCSE maths tutoring costs £30 per hour. Each lesson centers on targeted topic improvement, building confidence, and customized exam preparation.",
+    "expected_answer": "Private 1-to-1 maths lessons cost £30 per hour. Every lesson centers on targeted topic improvement, building confidence, and customized exam preparation."
+  },
+  {
+    "chunk_id": "pricing_1to1_004",
+    "category": "pricing",
+    "subcategory": "one_to_one",
+    "user_query": "Price for 1-1 math?",
+    "mapped_context": "1-to-1 GCSE maths tutoring costs £30 per hour.",
+    "expected_answer": "The price for dedicated 1-to-1 GCSE maths tutoring is £30 per hour."
+  },
+  {
+    "chunk_id": "pricing_1to1_005",
+    "category": "pricing",
+    "subcategory": "one_to_one",
+    "user_query": "Is private math help £30?",
+    "mapped_context": "1-to-1 GCSE maths tutoring costs £30 per hour.",
+    "expected_answer": "Yes, standard 1-to-1 private GCSE math tutoring is priced precisely at £30 per hour."
+  },
+  {
+    "chunk_id": "pricing_1to1_006",
+    "category": "pricing",
+    "subcategory": "one_to_one",
+    "user_query": "What's the hourly math tuition price?",
+    "mapped_context": "1-to-1 GCSE maths tutoring costs £30 per hour.",
+    "expected_answer": "The standard hourly rate for private 1-to-1 GCSE math tuition is £30 per hour."
+  },
+  {
+    "chunk_id": "pricing_1to1_007",
+    "category": "pricing",
+    "subcategory": "one_to_one",
+    "user_query": "Cost of a 1 hour private session?",
+    "mapped_context": "1-to-1 GCSE maths tutoring costs £30 per hour.",
+    "expected_answer": "A standard 1-hour private 1-to-1 math session costs exactly £30."
+  },
+  {
+    "chunk_id": "pricing_1to1_fees_001",
+    "category": "pricing",
+    "subcategory": "one_to_one_fees",
+    "user_query": "Is there a registration fee or is it just the hourly rate?",
+    "mapped_context": "1-to-1 GCSE maths tutoring costs £30 per hour.",
+    "expected_answer": "There are no hidden registration fees mentioned; standard 1-to-1 tutoring is simply billed at £30 per hour."
+  },
+  {
+    "chunk_id": "pricing_1to1_custom_001",
+    "category": "pricing",
+    "subcategory": "one_to_one_custom",
+    "user_query": "Can I get a custom quote for 1 on 1 sessions?",
+    "mapped_context": "1-to-1 GCSE maths tutoring costs £30 per hour. Each lesson is individually tailored to the student's needs, focusing on weak topics, exam preparation, and improving confidence.",
+    "expected_answer": "Standard 1-to-1 sessions have a fixed flat rate of £30 per hour, ensuring a completely personalized experience for the student."
+  },
+  {
+    "chunk_id": "pricing_group_001",
+    "category": "pricing",
+    "subcategory": "group",
+    "user_query": "group tuition pricing",
+    "mapped_context": "Group tutoring sessions are available with up to 5 students. Each student pays £12 per hour. A full group session therefore costs £60 per hour in total. Group sessions are more affordable but still structured and guided, with focus on core GCSE topics and exam practice.",
+    "expected_answer": "Group sessions are available for up to 5 students, costing £12 per hour per student (a total of £60/hour for the full group). They are structured, affordable, and focus heavily on core GCSE exam practice."
+  },
+  {
+    "chunk_id": "pricing_group_002",
+    "category": "pricing",
+    "subcategory": "group",
+    "user_query": "Can my son join a group class to save money?",
+    "mapped_context": "Group tutoring sessions are available with up to 5 students. Each student pays £12 per hour. A full group session therefore costs £60 per hour in total. Group sessions are more affordable but still structured and guided, with focus on core GCSE topics and exam practice.",
+    "expected_answer": "Yes, group sessions are specifically designed as a more affordable option. It costs just £12 per hour for each student in a group setup capped at 5 people."
+  },
+  {
+    "chunk_id": "pricing_group_003",
+    "category": "pricing",
+    "subcategory": "group",
+    "user_query": "How much for a group rate?",
+    "mapped_context": "Each student pays £12 per hour. A full group session therefore costs £60 per hour in total.",
+    "expected_answer": "The group rate is £12 per hour per student. For a full group of 5, the total session cost is £60 per hour."
+  },
+  {
+    "chunk_id": "pricing_group_004",
+    "category": "pricing",
+    "subcategory": "group",
+    "user_query": "How cheap are group sessions compared to private?",
+    "mapped_context": "1-to-1 GCSE maths tutoring costs £30 per hour... Each student pays £12 per hour [for group sessions].",
+    "expected_answer": "Group sessions are significantly cheaper, priced at just £12 per hour per student compared to the standard private 1-to-1 rate of £30 per hour."
+  },
+  {
+    "chunk_id": "pricing_group_capacity_001",
+    "category": "pricing",
+    "subcategory": "group_capacity",
+    "user_query": "What is the maximum number of kids in a group?",
+    "mapped_context": "Group tutoring sessions are available with up to 5 students.",
+    "expected_answer": "The maximum capacity for group math tutoring sessions is strictly limited to 5 students to preserve a guided learning environment."
+  },
+  {
+    "chunk_id": "pricing_group_revenue_001",
+    "category": "pricing",
+    "subcategory": "group_revenue",
+    "user_query": "How much does a whole group session bring in?",
+    "mapped_context": "Each student pays £12 per hour. A full group session therefore costs £60 per hour in total.",
+    "expected_answer": "With up to 5 students paying £12 each per hour, a full group tutoring session totals £60 per hour."
+  },
+  {
+    "chunk_id": "pricing_group_effectiveness_001",
+    "category": "pricing",
+    "subcategory": "group_effectiveness",
+    "user_query": "Are group sessions less effective than 1 to 1?",
+    "mapped_context": "Group sessions are more affordable but still structured and guided, with focus on core GCSE topics and exam practice.",
+    "expected_answer": "While group sessions are much more affordable at £12/hour, they remain tightly structured and guided, maintaining an intensive focus on core GCSE topics and exam practice."
+  },
+  {
+    "chunk_id": "pricing_group_workshops_001",
+    "category": "pricing",
+    "subcategory": "group_workshops",
+    "user_query": "Do you run math workshops for multiple children?",
+    "mapped_context": "Group tutoring sessions are available with up to 5 students. Each student pays £12 per hour.",
+    "expected_answer": "Yes, group tutoring sessions are available for up to 5 children at a rate of £12 per hour per student."
+  },
+  {
+    "chunk_id": "pricing_discount_001",
+    "category": "pricing",
+    "subcategory": "discounts",
+    "user_query": "monthly discount tutoring",
+    "mapped_context": "If a student books lessons on a monthly basis, they receive a 5% discount on the total monthly invoice. Example: If a student attends 4 one-to-one lessons in a month: 4 × £30 = £120 total. 5% discount = £6. Final monthly cost = £114. The discount applies automatically to the full monthly total.",
+    "expected_answer": "Students who book tutoring on a monthly basis automatically receive a 5% discount on their total invoice (e.g., paying £114 instead of £120 for 4 standard 1-to-1 classes)."
+  },
+  {
+    "chunk_id": "pricing_discount_002",
+    "category": "pricing",
+    "subcategory": "discounts",
+    "user_query": "Do I get a cheaper price if I pay for 4 weeks upfront?",
+    "mapped_context": "If a student books lessons on a monthly basis, they receive a 5% discount on the total monthly invoice. Example: If a student attends 4 one-to-one lessons in a month: 4 × £30 = £120 total. 5% discount = £6. Final monthly cost = £114.",
+    "expected_answer": "Yes! When you book lessons on a monthly basis, a 5% discount applies automatically. For 4 private lessons, this reduces the cost from £120 to £114."
+  },
+  {
+    "chunk_id": "pricing_discount_003",
+    "category": "pricing",
+    "subcategory": "discounts",
+    "user_query": "How is the 5% discount calculated?",
+    "mapped_context": "If a student books lessons on a monthly basis, they receive a 5% discount on the total monthly invoice. Example: If a student attends 4 one-to-one lessons in a month: 4 × £30 = £120 total. 5% discount = £6. Final monthly cost = £114.",
+    "expected_answer": "The 5% discount is calculated and applied automatically across the entire monthly total invoice. For example, a standard £120 bill receives a £6 reduction."
+  },
+  {
+    "chunk_id": "pricing_discount_004",
+    "category": "pricing",
+    "subcategory": "discounts",
+    "user_query": "Can you give me an example of the monthly math block savings?",
+    "mapped_context": "Example: If a student attends 4 one-to-one lessons in a month: 4 × £30 = £120 total. 5% discount = £6. Final monthly cost = £114. The discount applies automatically to the full monthly total.",
+    "expected_answer": "Sure! For 4 private lessons, the standard price is 4 x £30 = £120. Applying the automatic 5% monthly booking discount saves you £6, making the final payment £114."
+  },
+  {
+    "chunk_id": "pricing_discount_005",
+    "category": "pricing",
+    "subcategory": "discounts",
+    "user_query": "Is the discount manual or automatic?",
+    "mapped_context": "The discount applies automatically to the full monthly total.",
+    "expected_answer": "The 5% monthly booking discount is applied automatically to the full monthly invoice total; you do not have to request it manually."
+  },
+  {
+    "chunk_id": "pricing_discount_006",
+    "category": "pricing",
+    "subcategory": "discounts",
+    "user_query": "What are the perks of paying monthly?",
+    "mapped_context": "If a student books lessons on a monthly basis, they receive a 5% discount on the total monthly invoice.",
+    "expected_answer": "Booking on a monthly basis rewards you with an automatic 5% discount across the total monthly invoice."
+  },
+  {
+    "chunk_id": "pricing_discount_007",
+    "category": "pricing",
+    "subcategory": "discounts",
+    "user_query": "Is there an automatic discount for monthly?",
+    "mapped_context": "If a student books lessons on a monthly basis, they receive a 5% discount on the total monthly invoice... The discount applies automatically to the full monthly total.",
+    "expected_answer": "Yes, a 5% discount applies automatically to your full monthly total invoice when you book on a monthly basis."
+  },
+  {
+    "chunk_id": "pricing_discount_008",
+    "category": "pricing",
+    "subcategory": "discounts",
+    "user_query": "What is the fee for 4 lessons with the discount?",
+    "mapped_context": "Example: If a student attends 4 one-to-one lessons in a month: 4 × £30 = £120 total. 5% discount = £6. Final monthly cost = £114.",
+    "expected_answer": "With the automatic 5% monthly booking discount factored in, a block of 4 private lessons totals exactly £114."
+  },
+  {
+    "chunk_id": "pricing_discount_009",
+    "category": "pricing",
+    "subcategory": "discounts",
+    "user_query": "How much can I save with a monthly invoice?",
+    "mapped_context": "If a student books lessons on a monthly basis, they receive a 5% discount on the total monthly invoice.",
+    "expected_answer": "Booking on a monthly invoicing track automatically saves you 5% off the standard cumulative pricing total."
+  },
+  {
+    "chunk_id": "schedule_weekday_001",
+    "category": "availability",
+    "subcategory": "weekday_hours",
+    "user_query": "tutor opening hours",
+    "mapped_context": "Lessons are available during the following times: Weekdays: 4pm to 8pm (UK time). Weekends: 10am to 2pm (UK time). Availability may vary depending on existing bookings.",
+    "expected_answer": "Lessons are standardly available on Weekdays from 4pm to 8pm UK time, and on Weekends from 10am to 2pm UK time, subject to current slot bookings."
+  },
+  {
+    "chunk_id": "schedule_weekday_002",
+    "category": "availability",
+    "subcategory": "weekday_hours",
+    "user_query": "Are you free after school hours?",
+    "mapped_context": "Lessons are available during the following times: Weekdays: 4pm to 8pm (UK time). Availability may vary depending on existing bookings.",
+    "expected_answer": "Yes, Wali offers after-school slots on weekdays from 4pm to 8pm UK time, though specific availability depends on open slots."
+  },
+  {
+    "chunk_id": "schedule_weekday_003",
+    "category": "availability",
+    "subcategory": "weekday_hours",
+    "user_query": "What time do lessons close on weekdays?",
+    "mapped_context": "Weekdays: 4pm to 8pm (UK time).",
+    "expected_answer": "Standard weekday lessons conclude at 8pm UK time."
+  },
+  {
+    "chunk_id": "schedule_weekend_001",
+    "category": "availability",
+    "subcategory": "weekend_hours",
+    "user_query": "Can we book a lesson on Saturday or Sunday?",
+    "mapped_context": "Lessons are available during the following times: Weekends: 10am to 2pm (UK time). Availability may vary depending on existing bookings.",
+    "expected_answer": "Yes, weekend slots are available from 10am to 2pm UK time, depending on what slots remain unbooked."
+  },
+  {
+    "chunk_id": "schedule_weekend_002",
+    "category": "availability",
+    "subcategory": "weekend_hours",
+    "user_query": "What are your specific weekend times?",
+    "mapped_context": "Weekends: 10am to 2pm (UK time). Availability may vary depending on existing bookings.",
+    "expected_answer": "Weekend tutoring availability runs specifically from 10am to 2pm UK time."
+  },
+  {
+    "chunk_id": "schedule_weekend_003",
+    "category": "availability",
+    "subcategory": "weekend_hours",
+    "user_query": "What time do your weekend slots open?",
+    "mapped_context": "Weekends: 10am to 2pm (UK time).",
+    "expected_answer": "Weekend tutoring slots open up starting at 10am UK time."
+  },
+  {
+    "chunk_id": "schedule_availability_001",
+    "category": "availability",
+    "subcategory": "slot_availability",
+    "user_query": "Are all slots guaranteed to be open?",
+    "mapped_context": "Availability may vary depending on existing bookings.",
+    "expected_answer": "No, specific slot openings vary dynamically based on prior student bookings."
+  },
+  {
+    "chunk_id": "schedule_availability_002",
+    "category": "availability",
+    "subcategory": "slot_availability",
+    "user_query": "Can I get a slot at 6pm on a Tuesday?",
+    "mapped_context": "Lessons are available during the following times: Weekdays: 4pm to 8pm (UK time). Availability may vary depending on existing bookings.",
+    "expected_answer": "A 6pm Tuesday slot falls right within standard weekday hours (4pm–8pm UK time), but availability must be confirmed manually based on current bookings."
+  },
+  {
+    "chunk_id": "schedule_availability_003",
+    "category": "availability",
+    "subcategory": "slot_availability",
+    "user_query": "Can we do a lesson at 5pm on Wednesday?",
+    "mapped_context": "Lessons are available during the following times: Weekdays: 4pm to 8pm (UK time). Availability may vary depending on existing bookings.",
+    "expected_answer": "5pm on a Wednesday sits right inside standard weekday hours (4pm–8pm UK time). Openings are subject to manual confirmation based on prior client bookings."
+  },
+  {
+    "chunk_id": "schedule_evening_001",
+    "category": "availability",
+    "subcategory": "extended_hours",
+    "user_query": "Do you offer evening classes or lessons after school hours?",
+    "mapped_context": "Yes, Wali specializes in evening and after-school tutoring blocks. Weekday lessons are available Monday through Friday from 4:00 PM to 8:30 PM UK time to accommodate school schedules.",
+    "expected_answer": "Yes, Wali offers weekday evening lessons between 4:00 PM and 8:30 PM UK time."
+  },
+  {
+    "chunk_id": "schedule_evening_002",
+    "category": "availability",
+    "subcategory": "extended_hours",
+    "user_query": "What are the latest available time slots for math tutoring?",
+    "mapped_context": "The latest formal session begins at 7:30 PM and concludes at 8:30 PM. All evening classes are conducted online via live video sessions.",
+    "expected_answer": "The latest tutoring slot runs from 7:30 PM to 8:30 PM online."
+  },
+  {
+    "chunk_id": "schedule_weekend_backup_001",
+    "category": "availability",
+    "subcategory": "extended_hours",
+    "user_query": "Are there weekend classes available if evenings are full?",
+    "mapped_context": "If weekday evening slots (4:00 PM - 8:30 PM) are fully booked, weekend morning sessions are available on Saturdays from 9:00 AM to 1:00 PM.",
+    "expected_answer": "Saturday morning sessions from 9:00 AM to 1:00 PM are available if evening slots are full."
+  },
+  {
+    "chunk_id": "format_online_001",
+    "category": "lesson_format",
+    "subcategory": "delivery_method",
+    "user_query": "online math lessons zoom",
+    "mapped_context": "All lessons are delivered online using Zoom and a shared interactive whiteboard. Students do not need to travel. They only need a device with internet access.",
+    "expected_answer": "All tutoring is conducted completely online via Zoom paired with a shared interactive whiteboard. There is no travel involved; students just need a web-connected device."
+  },
+  {
+    "chunk_id": "format_online_002",
+    "category": "lesson_format",
+    "subcategory": "delivery_method",
+    "user_query": "Do you travel to houses for face to face classes?",
+    "mapped_context": "All lessons are delivered online using Zoom and a shared interactive whiteboard. Students do not need to travel.",
+    "expected_answer": "No, Wali does not provide in-person home visits. All tutoring sessions are held 100% online so students do not need to travel."
+  },
+  {
+    "chunk_id": "format_online_003",
+    "category": "lesson_format",
+    "subcategory": "delivery_method",
+    "user_query": "Is there a physical school or do we use Zoom?",
+    "mapped_context": "All lessons are delivered online using Zoom and a shared interactive whiteboard. Students do not need to travel.",
+    "expected_answer": "There is no physical school building to visit. All learning occurs remotely via Zoom using a shared interactive whiteboard, completely eliminating travel."
+  },
+  {
+    "chunk_id": "format_requirements_001",
+    "category": "lesson_format",
+    "subcategory": "technical_requirements",
+    "user_query": "What software do I need to download for classes?",
+    "mapped_context": "All lessons are delivered online using Zoom and a shared interactive whiteboard. Students do not need to travel. They only need a device with internet access.",
+    "expected_answer": "Lessons are managed via Zoom alongside a shared digital whiteboard. No complex hardware is required; your child only needs a device featuring working internet access."
+  },
+  {
+    "chunk_id": "format_requirements_002",
+    "category": "lesson_format",
+    "subcategory": "technical_requirements",
+    "user_query": "Do we need an iPad or drawing tablet?",
+    "mapped_context": "All lessons are delivered online using Zoom and a shared interactive whiteboard. They only need a device with internet access.",
+    "expected_answer": "Specialized equipment like drawing tablets isn't explicitly mandatory; students simply need any standard device with stable internet access to interact on the whiteboard."
+  },
+  {
+    "chunk_id": "format_requirements_003",
+    "category": "lesson_format",
+    "subcategory": "technical_requirements",
+    "user_query": "Is it possible to do lessons on a laptop?",
+    "mapped_context": "They only need a device with internet access.",
+    "expected_answer": "Yes, a laptop with working internet access is perfect for logging into Zoom and accessing the shared interactive whiteboard."
+  },
+  {
+    "chunk_id": "format_requirements_004",
+    "category": "lesson_format",
+    "subcategory": "technical_requirements",
+    "user_query": "Do we need web access for lessons?",
+    "mapped_context": "They only need a device with internet access.",
+    "expected_answer": "Yes, stable internet access is absolutely mandatory so your child can successfully join the online Zoom call and interactive whiteboard workspace."
+  },
+  {
+    "chunk_id": "format_whiteboard_001",
+    "category": "lesson_format",
+    "subcategory": "tools",
+    "user_query": "How do kids write down formulas online?",
+    "mapped_context": "All lessons are delivered online using Zoom and a shared interactive whiteboard.",
+    "expected_answer": "Students and the tutor can visually collaborate and sketch math formulas in real-time using a shared interactive whiteboard during the live Zoom call."
+  },
+  {
+    "chunk_id": "format_whiteboard_002",
+    "category": "lesson_format",
+    "subcategory": "tools",
+    "user_query": "Do you use a virtual whiteboard?",
+    "mapped_context": "All lessons are delivered online using Zoom and a shared interactive whiteboard.",
+    "expected_answer": "Yes, all online tutoring classes integrate a shared interactive whiteboard alongside Zoom to build a visual learning environment."
+  },
+  {
+    "chunk_id": "pedagogy_struggling_001",
+    "category": "teaching_approach",
+    "subcategory": "struggling_students",
+    "user_query": "help struggling math student",
+    "mapped_context": "Students who are struggling with maths are supported step-by-step from their current level. The teaching approach focuses on rebuilding foundational skills before moving into harder GCSE exam questions. This helps students regain confidence and make steady progress.",
+    "expected_answer": "Struggling students are carefully guided step-by-step starting right at their current knowledge baseline. Wali works on rebuilding core foundational math gaps before testing them on harder GCSE questions, ensuring steady and confident progress."
+  },
+  {
+    "chunk_id": "pedagogy_struggling_002",
+    "category": "teaching_approach",
+    "subcategory": "struggling_students",
+    "user_query": "My child is completely lost and failing school math tests.",
+    "mapped_context": "Students who are struggling with maths are supported step-by-step from their current level. The teaching approach focuses on rebuilding foundational skills before moving into harder GCSE exam questions. This helps students regain confidence and make steady progress.",
+    "expected_answer": "Don't panic. Struggling students are supported with a patient step-by-step method tailored to their current skill level. Wali focuses entirely on repairing weak foundational skills first, allowing the student to approach difficult GCSE problems with renewed confidence."
+  },
+  {
+    "chunk_id": "pedagogy_struggling_003",
+    "category": "teaching_approach",
+    "subcategory": "struggling_students",
+    "user_query": "My child keeps failing math, can you help?",
+    "mapped_context": "Students who are struggling with maths are supported step-by-step from their current level. The teaching approach focuses on rebuilding foundational skills before moving into harder GCSE exam questions.",
+    "expected_answer": "Yes, Wali can certainly help. He uses a step-by-step method designed specifically for struggling students, focusing on rebuilding foundational gaps before moving onto core GCSE questions."
+  },
+  {
+    "chunk_id": "pedagogy_struggling_004",
+    "category": "teaching_approach",
+    "subcategory": "struggling_students",
+    "user_query": "Do you drill past papers immediately for weak students?",
+    "mapped_context": "The teaching approach focuses on rebuilding foundational skills before moving into harder GCSE exam questions. This helps students regain confidence and make steady progress.",
+    "expected_answer": "No, jumping straight into hard past paper questions can damage a weak student's confidence. The core teaching strategy is to systematically rebuild foundational missing skills first, gradually working up to strict GCSE exam questions."
+  },
+  {
+    "chunk_id": "pedagogy_struggling_005",
+    "category": "teaching_approach",
+    "subcategory": "struggling_students",
+    "user_query": "How do you help a student make steady progress in math?",
+    "mapped_context": "The teaching approach focuses on rebuilding foundational skills before moving into harder GCSE exam questions. This helps students regain confidence and make steady progress.",
+    "expected_answer": "Steady progress is achieved by stripping away the complexity and solidifying foundational skills first. Once bases are secure, stepping into advanced GCSE exam content helps students build momentum without stress."
+  },
+  {
+    "chunk_id": "pedagogy_struggling_006",
+    "category": "teaching_approach",
+    "subcategory": "struggling_students",
+    "user_query": "What if my child is working at a primary school level in Year 9?",
+    "mapped_context": "Students who are struggling with maths are supported step-by-step from their current level. The teaching approach focuses on rebuilding foundational skills before moving into harder GCSE exam questions.",
+    "expected_answer": "Wali works with students precisely at their current level, no matter how far back that baseline is. He prioritizes structural, step-by-step development of foundational blocks before handling actual target GCSE questions."
+  },
+  {
+    "chunk_id": "pedagogy_struggling_007",
+    "category": "teaching_approach",
+    "subcategory": "struggling_students",
+    "user_query": "Can you fix missing core math skills?",
+    "mapped_context": "The teaching approach focuses on rebuilding foundational skills before moving into harder GCSE exam questions.",
+    "expected_answer": "Yes, the entire instructional framework is built explicitly around targeting and rebuilding core foundational mathematical skills before dealing with advanced exam specifications."
+  },
+  {
+    "chunk_id": "pedagogy_struggling_008",
+    "category": "teaching_approach",
+    "subcategory": "struggling_students",
+    "user_query": "How do you help weak math students improve step by step?",
+    "mapped_context": "Students who are struggling with maths are supported step-by-step from their current level. The teaching approach focuses on rebuilding foundational skills before moving into harder GCSE exam questions.",
+    "expected_answer": "Improvement is built step-by-step by checking their current level and methodically fixing any foundational skill gaps. This prepares them to advance into complex GCSE exam questions without confusion."
+  },
+  {
+    "chunk_id": "pedagogy_confidence_001",
+    "category": "teaching_approach",
+    "subcategory": "confidence_building",
+    "user_query": "How do you restore confidence in math?",
+    "mapped_context": "The teaching approach focuses on rebuilding foundational skills before moving into harder GCSE exam questions. This helps students regain confidence and make steady progress.",
+    "expected_answer": "Confidence is restored by stripping away high-pressure problems and focusing heavily on rebuilding basic skills first. Once these missing gaps are repaired, tackling formal GCSE work becomes a natural, steady progression."
+  },
+  {
+    "chunk_id": "pedagogy_confidence_002",
+    "category": "teaching_approach",
+    "subcategory": "confidence_building",
+    "user_query": "Can you build confidence in a nervous child?",
+    "mapped_context": "If a student hates maths or lacks confidence, the approach begins with simple, manageable steps to rebuild understanding before increasing difficulty.",
+    "expected_answer": "Yes, building confidence is a pillar of Wali's teaching philosophy. He begins with simple, manageable steps to re-establish a foundation of understanding before carefully introducing harder concepts."
+  },
+  {
+    "chunk_id": "objection_price_001",
+    "category": "objections_and_concerns",
+    "subcategory": "pricing_objections",
+    "user_query": "expensive math tuition value",
+    "mapped_context": "If a parent says the lessons are expensive, the response is that the tutoring is highly personalised and focused on improving exam performance efficiently rather than generic teaching.",
+    "expected_answer": "While the fee reflects premium placement, the value stems from highly personalized, pinpointed intervention designed around rapid exam performance gains rather than generic group classroom instruction."
+  },
+  {
+    "chunk_id": "objection_price_002",
+    "category": "objections_and_concerns",
+    "subcategory": "pricing_objections",
+    "user_query": "I can find a cheaper university student tutor online for £15.",
+    "mapped_context": "If a parent says the lessons are expensive, the response is that the tutoring is highly personalised and focused on improving exam performance efficiently rather than generic teaching.",
+    "expected_answer": "Understood, cheaper alternatives do exist. However, Wali's pricing covers a deeply personalized and specialized framework strictly geared towards boosting formal GCSE exam marks efficiently, bypassing generic overview teaching styles."
+  },
+  {
+    "chunk_id": "objection_price_003",
+    "category": "objections_and_concerns",
+    "subcategory": "pricing_objections",
+    "user_query": "Why is the 1 on 1 rate £30 an hour?",
+    "mapped_context": "If a parent says the lessons are expensive, the response is that the tutoring is highly personalised and focused on improving exam performance efficiently rather than generic teaching.",
+    "expected_answer": "The £30 hourly rate represents a premium, highly tailored experience focused on structural exam technique mastery and direct topic improvement, maximizing efficiency far better than standard textbook teaching."
+  },
+  {
+    "chunk_id": "objection_price_004",
+    "category": "objections_and_concerns",
+    "subcategory": "pricing_objections",
+    "user_query": "Is this tutoring service worth the money?",
+    "mapped_context": "If a parent says the lessons are expensive, the response is that the tutoring is highly personalised and focused on improving exam performance efficiently rather than generic teaching.",
+    "expected_answer": "Yes, because it centers explicitly on customized, student-specific optimization. By pinpointing personal learning gaps and drilling exact exam board criteria efficiently, it yields tangible performance enhancements."
+  },
+  {
+    "chunk_id": "objection_price_005",
+    "category": "objections_and_concerns",
+    "subcategory": "pricing_objections",
+    "user_query": "Can you lower your rate for low income families?",
+    "mapped_context": "If a parent says the lessons are expensive, the response is that the tutoring is highly personalised and focused on improving exam performance efficiently rather than generic teaching.",
+    "expected_answer": "The individual 1-to-1 rate is fixed to guarantee specialized personalization. If budget optimization is required, you can check out our group sessions at a highly reduced price of £12 per hour, or leverage the 5% monthly booking discount."
+  },
+  {
+    "chunk_id": "objection_price_006",
+    "category": "objections_and_concerns",
+    "subcategory": "pricing_objections",
+    "user_query": "Tuition is too costly.",
+    "mapped_context": "If a parent says the lessons are expensive, the response is that the tutoring is highly personalised and focused on improving exam performance efficiently rather than generic teaching.",
+    "expected_answer": "The investment reflects that this tuition is completely individualized and engineered specifically around rapid exam score improvements, delivering far better efficiency than generic teaching styles."
+  },
+  {
+    "chunk_id": "objection_price_007",
+    "category": "objections_and_concerns",
+    "subcategory": "pricing_objections",
+    "user_query": "Why should I pay £30 for math tutoring?",
+    "mapped_context": "The tutoring is highly personalised and focused on improving exam performance efficiently rather than generic teaching.",
+    "expected_answer": "The investment pays off because the sessions bypass slow, generic textbook teaching. Instead, you receive highly personalized strategies engineered explicitly to maximize exam performance efficiently."
+  },
+  {
+    "chunk_id": "objection_price_008",
+    "category": "objections_and_concerns",
+    "subcategory": "pricing_objections",
+    "user_query": "Your math sessions are pricey.",
+    "mapped_context": "The tutoring is highly personalised and focused on improving exam performance efficiently rather than generic teaching.",
+    "expected_answer": "The pricing represents a specialized, highly personalized architecture. It focuses exclusively on building rapid exam performance gains efficiently, which is much more effective than generic teaching styles."
+  },
+  {
+    "chunk_id": "objection_confidence_001",
+    "category": "objections_and_concerns",
+    "subcategory": "confidence_objections",
+    "user_query": "low confidence math anxiety",
+    "mapped_context": "If a student hates maths or lacks confidence, the approach begins with simple, manageable steps to rebuild understanding before increasing difficulty.",
+    "expected_answer": "If a child struggles with intense math anxiety or absolute loss of confidence, Wali starts carefully using low-stress, highly manageable tasks to build early win states before scaling the curriculum complexity up."
+  },
+  {
+    "chunk_id": "objection_confidence_002",
+    "category": "objections_and_concerns",
+    "subcategory": "confidence_objections",
+    "user_query": "My daughter breaks down crying during math homework because she hates it.",
+    "mapped_context": "If a student hates maths or lacks confidence, the approach begins with simple, manageable steps to rebuild understanding before increasing difficulty.",
+    "expected_answer": "Seeing your child distressed by homework is tough. To counter this, Wali sets aside stressful tasks and begins with simple, minor, structured steps designed to restore early understanding and break down the emotional block safely before increasing standard difficulty."
+  },
+  {
+    "chunk_id": "objection_confidence_003",
+    "category": "objections_and_concerns",
+    "subcategory": "confidence_objections",
+    "user_query": "How do you handle a student who thinks they are bad at math?",
+    "mapped_context": "If a student hates maths or lacks confidence, the approach begins with simple, manageable steps to rebuild understanding before increasing difficulty.",
+    "expected_answer": "Wali addresses negative self-beliefs directly through customized pedagogy. By starting with straightforward, perfectly attainable milestones, students prove to themselves they can solve problems correctly, naturally paving the way to harder math topics."
+  },
+  {
+    "chunk_id": "objection_confidence_004",
+    "category": "objections_and_concerns",
+    "subcategory": "confidence_objections",
+    "user_query": "What's the strategy for students who feel completely overwhelmed?",
+    "mapped_context": "If a student hates maths or lacks confidence, the approach begins with simple, manageable steps to rebuild understanding before increasing difficulty.",
+    "expected_answer": "The exact strategy is pacing containment. By chunking complex mathematics down into micro-steps that are simple and highly manageable, the student gains solid understanding cleanly without getting overwhelmed."
+  },
+  {
+    "chunk_id": "objection_confidence_005",
+    "category": "objections_and_concerns",
+    "subcategory": "confidence_objections",
+    "user_query": "He has no confidence in math.",
+    "mapped_context": "If a student hates maths or lacks confidence, the approach begins with simple, manageable steps to rebuild understanding before increasing difficulty.",
+    "expected_answer": "Wali completely accommodates low confidence. He systematically structures lessons around small, highly manageable conceptual steps to build understanding before increasing difficulty."
+  },
+  {
+    "chunk_id": "objection_confidence_006",
+    "category": "objections_and_concerns",
+    "subcategory": "confidence_objections",
+    "user_query": "My child hates math, can you fix that?",
+    "mapped_context": "If a student hates maths or lacks confidence, the approach begins with simple, manageable steps to rebuild understanding before increasing difficulty.",
+    "expected_answer": "Yes, intense dislike for math usually stems from structural confusion and feeling overwhelmed. Wali fixes this by stripping away complex items and introducing highly manageable micro-steps to secure basic understanding before scaling up complexity."
+  },
+  {
+    "chunk_id": "objection_confidence_007",
+    "category": "objections_and_concerns",
+    "subcategory": "confidence_objections",
+    "user_query": "My kid gets completely stressed out by math tests.",
+    "mapped_context": "If a student hates maths or lacks confidence, the approach begins with simple, manageable steps to rebuild understanding before increasing difficulty.",
+    "expected_answer": "Test-related stress typically highlights underlying confidence issues. Wali bypasses overwhelming milestones, starting with simple, highly manageable math steps to steady their understanding first."
+  },
+  {
+    "chunk_id": "policy_cancellation_001",
+    "category": "business_policies",
+    "subcategory": "cancellation",
+    "user_query": "cancellation fee tutor rules",
+    "mapped_context": "Lessons cancelled with less than 24 hours notice may still be charged.",
+    "expected_answer": "Lessons that are canceled or moved with less than 24 hours' notice remain fully subject to standard billing charges."
+  },
+  {
+    "chunk_id": "policy_cancellation_002",
+    "category": "business_policies",
+    "subcategory": "cancellation",
+    "user_query": "What if my child gets sick on the morning of the lesson?",
+    "mapped_context": "Lessons cancelled with less than 24 hours notice may still be charged.",
+    "expected_answer": "Because a cancellation on the morning of a lesson falls under the 24-hour notice limit, the session may unfortunately still be charged at the standard rate."
+  },
+  {
+    "chunk_id": "policy_cancellation_003",
+    "category": "business_policies",
+    "subcategory": "cancellation",
+    "user_query": "Is there a penalty if I cancel an hour before start?",
+    "mapped_context": "Lessons cancelled with less than 24 hours notice may still be charged.",
+    "expected_answer": "Yes, cancelling an hour prior to start falls well inside the 24-hour boundary, meaning the session may still be charged."
+  },
+  {
+    "chunk_id": "policy_cancellation_004",
+    "category": "business_policies",
+    "subcategory": "cancellation",
+    "user_query": "How much notice do I need to give to avoid paying for a missed session?",
+    "mapped_context": "Lessons cancelled with less than 24 hours notice may still be charged.",
+    "expected_answer": "To successfully avoid being billed for a missed session, you must issue an explicit notice of cancellation at least 24 hours prior to the scheduled lesson time."
+  },
+  {
+    "chunk_id": "policy_cancellation_005",
+    "category": "business_policies",
+    "subcategory": "cancellation",
+    "user_query": "Can we reschedule for free the night before?",
+    "mapped_context": "Lessons cancelled with less than 24 hours notice may still be charged.",
+    "expected_answer": "If rescheduling the night before leaves less than 24 hours of total lead notice before the lesson's start time, it may still be billed at the normal rate."
+  },
+  {
+    "chunk_id": "policy_cancellation_006",
+    "category": "business_policies",
+    "subcategory": "cancellation",
+    "user_query": "Is there a charge for last minute cancellation?",
+    "mapped_context": "Lessons cancelled with less than 24 hours notice may still be charged.",
+    "expected_answer": "Yes, any cancellations executed with less than 24 hours of advance notice are fully subject to being charged at the standard rate."
+  },
+  {
+    "chunk_id": "policy_cancellation_007",
+    "category": "business_policies",
+    "subcategory": "cancellation",
+    "user_query": "What is the time limit for cancelling a lesson?",
+    "mapped_context": "Lessons cancelled with less than 24 hours notice may still be charged.",
+    "expected_answer": "The minimum notification boundary is exactly 24 hours. Any cancellation made inside that 24-hour window may still be billed."
+  },
+  {
+    "chunk_id": "policy_cancellation_008",
+    "category": "business_policies",
+    "subcategory": "cancellation",
+    "user_query": "Will I get billed if I miss my lesson time?",
+    "mapped_context": "Lessons cancelled with less than 24 hours notice may still be charged.",
+    "expected_answer": "Yes, if you miss or cancel a pre-scheduled lesson time with less than 24 hours of advance notice, the session remains fully subject to standard billing charges."
+  },
+  {
+    "chunk_id": "policy_payment_001",
+    "category": "business_policies",
+    "subcategory": "payment",
+    "user_query": "payment methods bank transfer paypal",
+    "mapped_context": "Payment is made before lessons via bank transfer or PayPal.",
+    "expected_answer": "Standard payment processing must be completed upfront prior to lessons using direct bank transfer or PayPal."
+  },
+  {
+    "chunk_id": "policy_payment_002",
+    "category": "business_policies",
+    "subcategory": "payment",
+    "user_query": "Can I pay you at the end of the month after lessons are done?",
+    "mapped_context": "Payment is made before lessons via bank transfer or PayPal.",
+    "expected_answer": "No, arrears invoicing is not supported. All tuition fees must be explicitly cleared before any lessons actually take place."
+  },
+  {
+    "chunk_id": "policy_payment_003",
+    "category": "business_policies",
+    "subcategory": "payment",
+    "user_query": "Do you accept PayPal?",
+    "mapped_context": "Payment is made before lessons via bank transfer or PayPal.",
+    "expected_answer": "Yes, PayPal is fully supported as an approved payment option alongside direct bank transfer."
+  },
+  {
+    "chunk_id": "policy_payment_004",
+    "category": "business_policies",
+    "subcategory": "payment",
+    "user_query": "When do I need to send the payment?",
+    "mapped_context": "Payment is made before lessons via bank transfer or PayPal.",
+    "expected_answer": "Payments must always be settled upfront before your scheduled tutoring session begins."
+  },
+  {
+    "chunk_id": "policy_payment_005",
+    "category": "business_policies",
+    "subcategory": "payment",
+    "user_query": "Where do I send the money for lessons?",
+    "mapped_context": "Payment is made before lessons via bank transfer or PayPal.",
+    "expected_answer": "Payments are collected upfront before sessions take place. You can process this safely via standard bank transfer or PayPal."
+  },
+  {
+    "chunk_id": "policy_payment_006",
+    "category": "business_policies",
+    "subcategory": "payment",
+    "user_query": "Can I pay by bank transfer?",
+    "mapped_context": "Payment is made before lessons via bank transfer or PayPal.",
+    "expected_answer": "Yes, direct bank transfer is fully accepted alongside PayPal for clearing your advance invoices."
+  },
+  {
+    "chunk_id": "policy_payment_007",
+    "category": "business_policies",
+    "subcategory": "payment",
+    "user_query": "Do we pay before or after the math class?",
+    "mapped_context": "Payment is made before lessons via bank transfer or PayPal.",
+    "expected_answer": "All payments must be successfully processed upfront before any tutoring lessons take place."
+  },
+  {
+    "chunk_id": "policy_payment_008",
+    "category": "business_policies",
+    "subcategory": "payment",
+    "user_query": "Do you take cash or upfront bank transfer?",
+    "mapped_context": "Payment is made before lessons via bank transfer or PayPal.",
+    "expected_answer": "Since sessions are entirely online, physical cash is not accepted. Payments must be processed upfront using bank transfer or PayPal."
+  },
+  {
+    "chunk_id": "booking_001",
+    "category": "booking_and_contact",
+    "subcategory": "booking_process",
+    "user_query": "how to book Wali math tutor",
+    "mapped_context": "To book lessons, parents or students should contact directly: Phone / WhatsApp: 07400 123456. When contacting, please include: student's year group, exam board (if known), current grade, target grade, preferred lesson times. A suitable time slot will then be arranged manually.",
+    "expected_answer": "To initialize a booking, reach out directly via Phone or WhatsApp at 07400 123456. Make sure to share the student's current year group, exam board, current grade, target grade, and preferred time slots so a manual arrangement can be finalized."
+  },
+  {
+    "chunk_id": "booking_002",
+    "category": "booking_and_contact",
+    "subcategory": "booking_process",
+    "user_query": "What information should I text you to get a time slot?",
+    "mapped_context": "When contacting, please include: student's year group, exam board (if known), current grade, target grade, preferred lesson times. A suitable time slot will then be arranged manually.",
+    "expected_answer": "When reaching out, please make sure to detail the student's year group, their specific exam board (if known), current working grade, target goal grade, and your preferred lesson availability timings."
+  },
+  {
+    "chunk_id": "booking_003",
+    "category": "booking_and_contact",
+    "subcategory": "booking_process",
+    "user_query": "I want to start classes this week, what do I do?",
+    "mapped_context": "To book lessons, parents or students should contact directly: Phone / WhatsApp: 07737889846. When contacting, please include: student's year group, exam board (if known), current grade, target grade, preferred lesson times.",
+    "expected_answer": "To get started as fast as possible, send a message directly to Wali's WhatsApp or Phone at 07737889846. Include the student's current year group, target and working grades, exam board, and preferred times to arrange a slot."
+  },
+  {
+    "chunk_id": "booking_004",
+    "category": "booking_and_contact",
+    "subcategory": "booking_process",
+    "user_query": "Can I message you on WhatsApp to register?",
+    "mapped_context": "To book lessons, parents or students should contact directly: Phone / WhatsApp: 07737889846.",
+    "expected_answer": "Yes, absolutely! WhatsApp is an excellent way to reach out directly at 07737889846 to register and set up your student's profile."
+  },
+  {
+    "chunk_id": "booking_005",
+    "category": "booking_and_contact",
+    "subcategory": "booking_process",
+    "user_query": "Is booking automated on a website calendar?",
+    "mapped_context": "A suitable time slot will then be arranged manually.",
+    "expected_answer": "No, there is no automated scheduling engine. All calendar coordination and lesson scheduling is arranged completely manually by texting or calling the tutor."
+  },
+  {
+    "chunk_id": "booking_006",
+    "category": "booking_and_contact",
+    "subcategory": "booking_process",
+    "user_query": "What info do I need to include to book a math slot?",
+    "mapped_context": "When contacting, please include: student's year group, exam board (if known), current grade, target grade, preferred lesson times. A suitable time slot will then be arranged manually.",
+    "expected_answer": "To arrange a slot manually, please provide the student's school year group, their current exam board if known, current working grade, target grade, and your preferred lesson availability windows."
+  },
+  {
+    "chunk_id": "contact_001",
+    "category": "booking_and_contact",
+    "subcategory": "contact_info",
+    "user_query": "What is your phone number or whatsapp link?",
+    "mapped_context": "To book lessons, parents or students should contact directly: Phone / WhatsApp: 07737889846.",
+    "expected_answer": "You can reach Wali directly for bookings or general queries by sending a message or calling his Phone / WhatsApp line at 07737889846."
+  },
+  {
+    "chunk_id": "contact_002",
+    "category": "booking_and_contact",
+    "subcategory": "contact_info",
+    "user_query": "How to contact Wali?",
+    "mapped_context": "To book lessons, parents or students should contact directly: Phone / WhatsApp: 07737889846.",
+    "expected_answer": "You can contact Wali directly via Phone or WhatsApp by messaging or calling 07737889846."
+  },
+  {
+    "chunk_id": "contact_003",
+    "category": "booking_and_contact",
+    "subcategory": "contact_info",
+    "user_query": "What is Wali's mobile number?",
+    "mapped_context": "To book lessons, parents or students should contact directly: Phone / WhatsApp: 07737889846.",
+    "expected_answer": "Wali's contact mobile phone number for direct text messages or calls is 07737889846."
+  }
+]
