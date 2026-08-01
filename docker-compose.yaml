@@ -1,0 +1,10 @@
+services:
+  tutor-bot:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      # Mounts the local data folder so DuckDB and SQLite persist
+      - ./data:/app/data
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}

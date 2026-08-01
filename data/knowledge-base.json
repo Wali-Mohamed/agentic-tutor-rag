@@ -28,7 +28,7 @@
     "category": "tutor_profile",
     "subcategory": "qualifications",
     "user_query": "What are the tutor's teaching qualifications and university degrees?",
-    "mapped_context": "Wali is a fully PGCE-qualified mathematics teacher with active UK Qualified Teacher Status (QTS). Furthermore, he is an academic graduate of Imperial College London, one of the world's premier STEM institutions.",
+    "mapped_context": "Wali is a fully PGCE-qualified mathematics teacher. Furthermore, he is an academic graduate of Imperial College London, one of the world's premier STEM institutions.",
     "expected_answer": "Wali is a fully PGCE-qualified math teacher and an academic graduate from Imperial College London."
   },
   {
@@ -918,5 +918,12 @@
     "user_query": "What is Wali's mobile number?",
     "mapped_context": "To book lessons, parents or students should contact directly: Phone / WhatsApp: 07737889846.",
     "expected_answer": "Wali's contact mobile phone number for direct text messages or calls is 07737889846."
-  }
+  },
+  {
+    "chunk_id": "about_01",
+    "category": "About", 
+    "subcategory": "tutor_profile",
+    "user_query": "What is Wali's experience in teaching math?",
+  "mapped_context": "Wali has over 15 years of experience teaching GCSE and KS3 mathematics...", 
+  "expected_answer": "Wali has over 15 years of math teaching experience."}
 ]

@@ -5,10 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "dlt>=1.29.1",
+    "duckdb>=1.5.5",
     "fastembed>=0.8.0",
     "jupyter>=1.1.1",
     "minsearch>=0.2.0",
     "openai>=2.49.0",
+    "plotly>=6.9.0",
     "python-dotenv>=1.2.2",
     "requests>=2.34.2",
+    "streamlit>=1.60.0",
 ]

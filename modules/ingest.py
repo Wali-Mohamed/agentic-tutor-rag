@@ -2,10 +2,22 @@ import json
 from minsearch import Index as KeywordIndex
 from fastembed import TextEmbedding
 from modules.rag_helper import VectorIndex  
+import duckdb
 
 def load_faq_data():
-    with open('data/knowledge-base.json', 'r') as f:
-        return json.load(f)
+    # Simple relative path
+    conn = duckdb.connect('data/tutor_pipeline.duckdb')
+    
+    query = "SELECT * FROM wali_kb.faq_source"
+    documents = conn.execute(query).df().to_dict(orient='records')
+    
+    clean_docs = [
+        {k: v for k, v in doc.items() if not k.startswith('_dlt')}
+        for doc in documents
+    ]
+    
+    return clean_docs
+
 
 def build_indices(documents):
     # 1. Build Keyword Index (minsearch)
