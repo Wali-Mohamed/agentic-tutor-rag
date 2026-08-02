@@ -1,922 +1,930 @@
 [
   {
-    "question": "What topics can Wali help my child improve on for their upcoming GCSE exams?",
-    "user_query": "What topics can Wali help my child improve on for their upcoming GCSE exams?",
+    "question": "What exam boards do you support for GCSE and KS3 Maths tutoring?  \nHow do your lessons help improve a student's confidence in Maths?  \nCan you explain what a typical 60-minute lesson looks like?",
+    "user_query": "What exam boards do you support for GCSE and KS3 Maths tutoring?  \nHow do your lessons help improve a student's confidence in Maths?  \nCan you explain what a typical 60-minute lesson looks like?",
     "chunk_id": "profile_001",
     "answer_orig": "Wali is an online GCSE and KS3 Maths tutor based in the UK who supports the AQA, Edexcel, and OCR exam boards. His 60-minute lessons focus on providing step-by-step explanations, helping weak students regain confidence, refining exam techniques, and delivering targeted topic improvements.",
     "category": "tutor_profile",
     "subcategory": "core_info"
   },
   {
-    "question": "What specific exam techniques will Wali help my child improve during the lessons?",
-    "user_query": "What specific exam techniques will Wali help my child improve during the lessons?",
+    "question": "What exam boards do you support for GCSE and KS3 Maths tutoring?  \nHow do you help students who are struggling with confidence in Maths?  \nCan you explain what a typical online lesson looks like with you?",
+    "user_query": "What exam boards do you support for GCSE and KS3 Maths tutoring?  \nHow do you help students who are struggling with confidence in Maths?  \nCan you explain what a typical online lesson looks like with you?",
     "chunk_id": "profile_002",
     "answer_orig": "Wali is an online GCSE and KS3 Maths tutor based in the UK who supports the AQA, Edexcel, and OCR exam boards. His 60-minute lessons focus on providing step-by-step explanations, helping weak students regain confidence, refining exam techniques, and delivering targeted topic improvements.",
     "category": "tutor_profile",
     "subcategory": "core_info"
   },
   {
-    "question": "Is Wali's tutoring aligned with the UK school curriculum?",
-    "user_query": "Is Wali's tutoring aligned with the UK school curriculum?",
+    "question": "Is Wali's tutoring focused on the UK curriculum for GCSE and KS3?  \nCan I schedule online lessons with Wali for my child?  \nWhat subjects within math does Wali cover during the tutoring sessions?",
+    "user_query": "Is Wali's tutoring focused on the UK curriculum for GCSE and KS3?  \nCan I schedule online lessons with Wali for my child?  \nWhat subjects within math does Wali cover during the tutoring sessions?",
     "chunk_id": "profile_003",
     "answer_orig": "Yes, Wali is based in the UK and delivers online math tutoring specifically aligned to the UK school curriculum systems.",
     "category": "tutor_profile",
     "subcategory": "core_info"
   },
   {
-    "question": "What qualifications does Wali have as a math tutor?",
-    "user_query": "What qualifications does Wali have as a math tutor?",
+    "question": "What qualifications does Wali have as a math tutor?  \nWhere did Wali study mathematics?  \nHow can Wali help my child improve in math?",
+    "user_query": "What qualifications does Wali have as a math tutor?  \nWhere did Wali study mathematics?  \nHow can Wali help my child improve in math?",
     "chunk_id": "credentials_001",
     "answer_orig": "Wali is a fully PGCE-qualified math teacher and an academic graduate from Imperial College London.",
     "category": "tutor_profile",
     "subcategory": "qualifications"
   },
   {
-    "question": "What topics do you cover in your KS3 and GCSE maths lessons?",
-    "user_query": "What topics do you cover in your KS3 and GCSE maths lessons?",
+    "question": "What topics does Wali cover in his GCSE maths lessons?  \nHow can I schedule a tutoring session with Wali?  \nDoes Wali provide resources or materials for practice after the lessons?",
+    "user_query": "What topics does Wali cover in his GCSE maths lessons?  \nHow can I schedule a tutoring session with Wali?  \nDoes Wali provide resources or materials for practice after the lessons?",
     "chunk_id": "levels_001",
     "answer_orig": "Wali specializes in teaching Key Stage 3 (KS3) and GCSE level mathematics to students in the UK.",
     "category": "tutor_profile",
     "subcategory": "taught_levels"
   },
   {
-    "question": "How long are Wali's lessons and what do they focus on?",
-    "user_query": "How long are Wali's lessons and what do they focus on?",
+    "question": "How long is each lesson with Wali, and what can we expect during that time?  \nWhat strategies does Wali use to help students who are struggling with math?  \nCan Wali help my child improve their exam technique before the upcoming tests?",
+    "user_query": "How long is each lesson with Wali, and what can we expect during that time?  \nWhat strategies does Wali use to help students who are struggling with math?  \nCan Wali help my child improve their exam technique before the upcoming tests?",
     "chunk_id": "lesson_format_001",
     "answer_orig": "Wali's lessons are 60 minutes long. They are designed to focus on clear step-by-step explanations, boosting the confidence of struggling students, improving exam technique, and zeroing in on targeted topic improvements.",
     "category": "lesson_structure",
     "subcategory": "duration"
   },
   {
-    "question": "How long are the lessons and what do they focus on?",
-    "user_query": "How long are the lessons and what do they focus on?",
+    "question": "How long is each tutoring session with Wali?  \nWhat topics will Wali focus on during the lessons?  \nCan Wali help my child improve their exam technique?",
+    "user_query": "How long is each tutoring session with Wali?  \nWhat topics will Wali focus on during the lessons?  \nCan Wali help my child improve their exam technique?",
     "chunk_id": "lesson_format_002",
     "answer_orig": "Standard lessons are strictly 60 minutes long to maximize focus on step-by-step explanations, exam technique, and topic improvement.",
     "category": "lesson_structure",
     "subcategory": "duration"
   },
   {
-    "question": "How long are the tutoring sessions and what do they focus on?",
-    "user_query": "How long are the tutoring sessions and what do they focus on?",
+    "question": "How long is each tutoring session, and what do you focus on during that time?  \nWhat strategies do you use to help students who struggle with math?  \nCan you explain how you help improve exam techniques for students preparing for their GCSEs?",
+    "user_query": "How long is each tutoring session, and what do you focus on during that time?  \nWhat strategies do you use to help students who struggle with math?  \nCan you explain how you help improve exam techniques for students preparing for their GCSEs?",
     "chunk_id": "lesson_focus_001",
     "answer_orig": "The primary goals of the tutoring sessions are providing step-by-step explanations, building confidence in weaker students, perfecting exam techniques, and achieving targeted topic improvement.",
     "category": "lesson_structure",
     "subcategory": "learning_objectives"
   },
   {
-    "question": "How does Wali help students improve their exam technique during the 60-minute lessons?",
-    "user_query": "How does Wali help students improve their exam technique during the 60-minute lessons?",
+    "question": "How does Wali help students improve their exam technique during tutoring sessions?  \nWhat strategies does Wali use to build confidence in students who are struggling with math?  \nCan you explain how targeted topic improvement works in Wali's lessons?",
+    "user_query": "How does Wali help students improve their exam technique during tutoring sessions?  \nWhat strategies does Wali use to build confidence in students who are struggling with math?  \nCan you explain how targeted topic improvement works in Wali's lessons?",
     "chunk_id": "lesson_focus_002",
     "answer_orig": "Wali's 60-minute tutoring lessons explicitly prioritize and focus on improving proper exam technique alongside targeted topic improvement.",
     "category": "lesson_structure",
     "subcategory": "learning_objectives"
   },
   {
-    "question": "How does Wali help students who struggle with specific math topics during the 60-minute lessons?",
-    "user_query": "How does Wali help students who struggle with specific math topics during the 60-minute lessons?",
+    "question": "How long are the tutoring sessions and what do they focus on?  \nWhat strategies do you use to help students who are struggling with math?  \nCan you explain how you help improve exam techniques for students?",
+    "user_query": "How long are the tutoring sessions and what do they focus on?  \nWhat strategies do you use to help students who are struggling with math?  \nCan you explain how you help improve exam techniques for students?",
     "chunk_id": "lesson_focus_003",
     "answer_orig": "The 60-minute sessions specialize directly in clear step-by-step explanations, cultivating confidence within struggling students, optimizing exam board techniques, and delivering targeted topic improvements.",
     "category": "lesson_structure",
     "subcategory": "learning_objectives"
   },
   {
-    "question": "Which exam boards do you support for GCSE math tutoring?",
-    "user_query": "Which exam boards do you support for GCSE math tutoring?",
+    "question": "Which exam boards does Wali provide support for in GCSE Math tutoring?  \nCan Wali help me with both AQA and Edexcel GCSE Math exams?  \nDoes Wali offer tutoring for the OCR exam board as well?",
+    "user_query": "Which exam boards does Wali provide support for in GCSE Math tutoring?  \nCan Wali help me with both AQA and Edexcel GCSE Math exams?  \nDoes Wali offer tutoring for the OCR exam board as well?",
     "chunk_id": "exams_001",
     "answer_orig": "Wali supports the AQA, Edexcel, and OCR exam boards for GCSE tutoring.",
     "category": "exam_boards",
     "subcategory": "supported_boards"
   },
   {
-    "question": "Which GCSE exam board do you provide tutoring for?",
-    "user_query": "Which GCSE exam board do you provide tutoring for?",
+    "question": "Which GCSE exam board does Wali tutor for?  \nCan Wali help with the AQA mathematics syllabus specifically?  \nDoes Wali offer tutoring for both Edexcel and OCR GCSE exams?",
+    "user_query": "Which GCSE exam board does Wali tutor for?  \nCan Wali help with the AQA mathematics syllabus specifically?  \nDoes Wali offer tutoring for both Edexcel and OCR GCSE exams?",
     "chunk_id": "exams_002",
     "answer_orig": "Wali covers the specific exam syllabi for the AQA, Edexcel, and OCR GCSE mathematics boards.",
     "category": "exam_boards",
     "subcategory": "supported_boards"
   },
   {
-    "question": "Which exam boards does Wali support for tutoring in math?",
-    "user_query": "Which exam boards does Wali support for tutoring in math?",
+    "question": "Which exam boards does Wali's tutoring support?  \nCan Wali help me with my AQA Math exam preparation?  \nIs Wali familiar with the Edexcel curriculum for GCSE Math?",
+    "user_query": "Which exam boards does Wali's tutoring support?  \nCan Wali help me with my AQA Math exam preparation?  \nIs Wali familiar with the Edexcel curriculum for GCSE Math?",
     "chunk_id": "exams_003",
     "answer_orig": "Yes, his tutoring structure natively aligns with the UK's major school boards: AQA, Edexcel, and OCR.",
     "category": "exam_boards",
     "subcategory": "supported_boards"
   },
   {
-    "question": "Which exam boards does Wali support for GCSE Math tutoring?",
-    "user_query": "Which exam boards does Wali support for GCSE Math tutoring?",
+    "question": "How familiar is Wali with the AQA GCSE Math curriculum?  \nCan Wali help me with Edexcel exam preparation strategies?  \nDoes Wali have experience with the OCR Math syllabus for KS3?",
+    "user_query": "How familiar is Wali with the AQA GCSE Math curriculum?  \nCan Wali help me with Edexcel exam preparation strategies?  \nDoes Wali have experience with the OCR Math syllabus for KS3?",
     "chunk_id": "exams_004",
     "answer_orig": "Yes, Wali is thoroughly experienced with the specific curriculum requirements of the three major GCSE boards: AQA, Edexcel, and OCR.",
     "category": "exam_boards",
     "subcategory": "supported_boards"
   },
   {
-    "question": "Does Wali offer tutoring for the Edexcel GCSE math exam board?",
-    "user_query": "Does Wali offer tutoring for the Edexcel GCSE math exam board?",
+    "question": "Does Wali offer tutoring for the Edexcel GCSE math exam board?  \nCan Wali help with specific topics in the OCR GCSE math curriculum?  \nWhat resources does Wali use to prepare students for the AQA GCSE math exam?",
+    "user_query": "Does Wali offer tutoring for the Edexcel GCSE math exam board?  \nCan Wali help with specific topics in the OCR GCSE math curriculum?  \nWhat resources does Wali use to prepare students for the AQA GCSE math exam?",
     "chunk_id": "exams_aqa_001",
     "answer_orig": "Yes, absolutely! Wali routinely teaches the complete curriculum for the AQA GCSE math exam board.",
     "category": "exam_boards",
     "subcategory": "aqa"
   },
   {
-    "question": "Does Wali provide tutoring for the Edexcel GCSE math curriculum?",
-    "user_query": "Does Wali provide tutoring for the Edexcel GCSE math curriculum?",
+    "question": "Does Wali offer tutoring for the AQA GCSE math exam board?  \nCan Wali help with specific topics in the OCR curriculum?  \nWhat resources does Wali use for Edexcel GCSE math tutoring?",
+    "user_query": "Does Wali offer tutoring for the AQA GCSE math exam board?  \nCan Wali help with specific topics in the OCR curriculum?  \nWhat resources does Wali use for Edexcel GCSE math tutoring?",
     "chunk_id": "exams_edexcel_001",
     "answer_orig": "Yes, Wali fully supports the Edexcel exam board curriculum for GCSE math tutoring.",
     "category": "exam_boards",
     "subcategory": "edexcel"
   },
   {
-    "question": "Is the tutoring aligned with the AQA GCSE mathematics syllabus?",
-    "user_query": "Is the tutoring aligned with the AQA GCSE mathematics syllabus?",
+    "question": "Is the tutoring aligned with the AQA GCSE exam board syllabus?  \nCan you help me with Edexcel GCSE math topics?  \nWhat exam boards do you provide tutoring for?",
+    "user_query": "Is the tutoring aligned with the AQA GCSE exam board syllabus?  \nCan you help me with Edexcel GCSE math topics?  \nWhat exam boards do you provide tutoring for?",
     "chunk_id": "exams_ocr_001",
     "answer_orig": "Yes, the tutoring is aligned with and supports the official OCR GCSE mathematics exam board syllabus.",
     "category": "exam_boards",
     "subcategory": "ocr"
   },
   {
-    "question": "Does Wali offer tutoring for IGCSE math, or just for the GCSE exam boards?",
-    "user_query": "Does Wali offer tutoring for IGCSE math, or just for the GCSE exam boards?",
+    "question": "Which GCSE exam boards do you provide tutoring for?  \nDo you offer support for IGCSE exams as well?  \nHow can I get in touch with you if I have questions about IGCSE tutoring?",
+    "user_query": "Which GCSE exam boards do you provide tutoring for?  \nDo you offer support for IGCSE exams as well?  \nHow can I get in touch with you if I have questions about IGCSE tutoring?",
     "chunk_id": "exams_igcse_001",
     "answer_orig": "The dataset currently only confirms support for UK domestic GCSE boards: AQA, Edexcel, and OCR. For specific IGCSE variants, please contact Wali directly at 07400 123456.",
     "category": "exam_boards",
     "subcategory": "other_boards"
   },
   {
-    "question": "How much does a one-on-one GCSE maths tutoring session with Wali cost?",
-    "user_query": "How much does a one-on-one GCSE maths tutoring session with Wali cost?",
+    "question": "How much does a one-on-one GCSE maths tutoring session cost?  \nWhat does a typical tutoring lesson focus on?  \nCan you help my child with specific topics they find challenging?",
+    "user_query": "How much does a one-on-one GCSE maths tutoring session cost?  \nWhat does a typical tutoring lesson focus on?  \nCan you help my child with specific topics they find challenging?",
     "chunk_id": "pricing_1to1_001",
     "answer_orig": "Private, 1-to-1 GCSE maths tutoring costs \u00c2\u00a330 per hour, which provides a tailored lesson focused on the student's unique weak topics, confidence, and exam prep.",
     "category": "pricing",
     "subcategory": "one_to_one"
   },
   {
-    "question": "How much does a 1-to-1 GCSE maths tutoring session with Wali cost?",
-    "user_query": "How much does a 1-to-1 GCSE maths tutoring session with Wali cost?",
+    "question": "How much does a one-on-one GCSE maths tutoring session cost?  \nWhat kind of support can my child expect during the tutoring sessions?  \nIs the tutoring tailored to address specific weaknesses in my child's understanding?",
+    "user_query": "How much does a one-on-one GCSE maths tutoring session cost?  \nWhat kind of support can my child expect during the tutoring sessions?  \nIs the tutoring tailored to address specific weaknesses in my child's understanding?",
     "chunk_id": "pricing_1to1_002",
     "answer_orig": "For an individual student, private 1-to-1 GCSE tutoring is priced at \u00c2\u00a330 per hour. This includes highly tailored support suited to their personal learning speed.",
     "category": "pricing",
     "subcategory": "one_to_one"
   },
   {
-    "question": "How much do the 1-to-1 GCSE maths tutoring sessions cost?",
-    "user_query": "How much do the 1-to-1 GCSE maths tutoring sessions cost?",
+    "question": "How much do your 1-to-1 maths tutoring sessions cost?  \nWhat can I expect to focus on during a lesson with you?  \nHow do you customize the lessons for exam preparation?",
+    "user_query": "How much do your 1-to-1 maths tutoring sessions cost?  \nWhat can I expect to focus on during a lesson with you?  \nHow do you customize the lessons for exam preparation?",
     "chunk_id": "pricing_1to1_003",
     "answer_orig": "Private 1-to-1 maths lessons cost \u00c2\u00a330 per hour. Every lesson centers on targeted topic improvement, building confidence, and customized exam preparation.",
     "category": "pricing",
     "subcategory": "one_to_one"
   },
   {
-    "question": "How much does 1-to-1 GCSE maths tutoring cost per hour?",
-    "user_query": "How much does 1-to-1 GCSE maths tutoring cost per hour?",
+    "question": "How much do you charge for 1-to-1 GCSE maths tutoring?  \nWhat is the hourly rate for your maths tutoring sessions?  \nCan you tell me the cost of a private maths tutor for GCSE?",
+    "user_query": "How much do you charge for 1-to-1 GCSE maths tutoring?  \nWhat is the hourly rate for your maths tutoring sessions?  \nCan you tell me the cost of a private maths tutor for GCSE?",
     "chunk_id": "pricing_1to1_004",
     "answer_orig": "The price for dedicated 1-to-1 GCSE maths tutoring is \u00c2\u00a330 per hour.",
     "category": "pricing",
     "subcategory": "one_to_one"
   },
   {
-    "question": "How much do you charge for 1-to-1 GCSE math tutoring sessions?",
-    "user_query": "How much do you charge for 1-to-1 GCSE math tutoring sessions?",
+    "question": "How much do you charge for 1-to-1 GCSE math tutoring?  \nIs there a specific rate for private tutoring sessions?  \nWhat is the hourly rate for GCSE maths tutoring with Wali?",
+    "user_query": "How much do you charge for 1-to-1 GCSE math tutoring?  \nIs there a specific rate for private tutoring sessions?  \nWhat is the hourly rate for GCSE maths tutoring with Wali?",
     "chunk_id": "pricing_1to1_005",
     "answer_orig": "Yes, standard 1-to-1 private GCSE math tutoring is priced precisely at \u00c2\u00a330 per hour.",
     "category": "pricing",
     "subcategory": "one_to_one"
   },
   {
-    "question": "How much do you charge for an hour of GCSE math tutoring?",
-    "user_query": "How much do you charge for an hour of GCSE math tutoring?",
+    "question": "How much does a one-hour session of GCSE math tutoring cost?  \nWhat is the rate for private tutoring in GCSE math?  \nCan you tell me the price for 1-to-1 math tutoring sessions?",
+    "user_query": "How much does a one-hour session of GCSE math tutoring cost?  \nWhat is the rate for private tutoring in GCSE math?  \nCan you tell me the price for 1-to-1 math tutoring sessions?",
     "chunk_id": "pricing_1to1_006",
     "answer_orig": "The standard hourly rate for private 1-to-1 GCSE math tuition is \u00c2\u00a330 per hour.",
     "category": "pricing",
     "subcategory": "one_to_one"
   },
   {
-    "question": "How much does a one-hour GCSE math tutoring session with Wali cost?",
-    "user_query": "How much does a one-hour GCSE math tutoring session with Wali cost?",
+    "question": "How much do you charge for a one-hour math tutoring session?  \nWhat is the cost for a private math tutor for GCSE?  \nCan you tell me the price for a 1-to-1 math tutoring session?",
+    "user_query": "How much do you charge for a one-hour math tutoring session?  \nWhat is the cost for a private math tutor for GCSE?  \nCan you tell me the price for a 1-to-1 math tutoring session?",
     "chunk_id": "pricing_1to1_007",
     "answer_orig": "A standard 1-hour private 1-to-1 math session costs exactly \u00c2\u00a330.",
     "category": "pricing",
     "subcategory": "one_to_one"
   },
   {
-    "question": "Are there any additional fees I should be aware of when signing up for 1-to-1 tutoring?",
-    "user_query": "Are there any additional fees I should be aware of when signing up for 1-to-1 tutoring?",
+    "question": "How much does a tutoring session with Wali cost?  \nAre there any hidden fees I should be aware of when signing up for tutoring?  \nIs the \u00a330 per hour rate the only charge for the tutoring services?",
+    "user_query": "How much does a tutoring session with Wali cost?  \nAre there any hidden fees I should be aware of when signing up for tutoring?  \nIs the \u00a330 per hour rate the only charge for the tutoring services?",
     "chunk_id": "pricing_1to1_fees_001",
     "answer_orig": "There are no hidden registration fees mentioned; standard 1-to-1 tutoring is simply billed at \u00c2\u00a330 per hour.",
     "category": "pricing",
     "subcategory": "one_to_one_fees"
   },
   {
-    "question": "How much do the 1-to-1 GCSE maths tutoring sessions cost?",
-    "user_query": "How much do the 1-to-1 GCSE maths tutoring sessions cost?",
+    "question": "How much does a one-on-one GCSE maths tutoring session cost?  \nWhat can I expect from a personalized tutoring lesson with Wali?  \nAre the sessions tailored to focus on specific topics I struggle with?",
+    "user_query": "How much does a one-on-one GCSE maths tutoring session cost?  \nWhat can I expect from a personalized tutoring lesson with Wali?  \nAre the sessions tailored to focus on specific topics I struggle with?",
     "chunk_id": "pricing_1to1_custom_001",
     "answer_orig": "Standard 1-to-1 sessions have a fixed flat rate of \u00c2\u00a330 per hour, ensuring a completely personalized experience for the student.",
     "category": "pricing",
     "subcategory": "one_to_one_custom"
   },
   {
-    "question": "How much does it cost for my child to join a group tutoring session with Wali?",
-    "user_query": "How much does it cost for my child to join a group tutoring session with Wali?",
+    "question": "How many students are in each group tutoring session?  \nWhat topics will be covered in the group sessions?  \nIs there a discount for booking multiple sessions in advance?",
+    "user_query": "How many students are in each group tutoring session?  \nWhat topics will be covered in the group sessions?  \nIs there a discount for booking multiple sessions in advance?",
     "chunk_id": "pricing_group_001",
     "answer_orig": "Group sessions are available for up to 5 students, costing \u00c2\u00a312 per hour per student (a total of \u00c2\u00a360/hour for the full group). They are structured, affordable, and focus heavily on core GCSE exam practice.",
     "category": "pricing",
     "subcategory": "group"
   },
   {
-    "question": "How much does it cost for my child to join a group tutoring session?",
-    "user_query": "How much does it cost for my child to join a group tutoring session?",
+    "question": "How much does it cost for my child to attend a group tutoring session?  \nAre group sessions a good option for students who need extra help with GCSE topics?  \nHow many students are there in a typical group session?",
+    "user_query": "How much does it cost for my child to attend a group tutoring session?  \nAre group sessions a good option for students who need extra help with GCSE topics?  \nHow many students are there in a typical group session?",
     "chunk_id": "pricing_group_002",
     "answer_orig": "Yes, group sessions are specifically designed as a more affordable option. It costs just \u00c2\u00a312 per hour for each student in a group setup capped at 5 people.",
     "category": "pricing",
     "subcategory": "group"
   },
   {
-    "question": "How much does it cost for a full group session with five students?",
-    "user_query": "How much does it cost for a full group session with five students?",
+    "question": "How much do I need to pay for a group session with five students?  \nWhat is the cost per student for the tutoring sessions?  \nCan you explain how the group session pricing works?",
+    "user_query": "How much do I need to pay for a group session with five students?  \nWhat is the cost per student for the tutoring sessions?  \nCan you explain how the group session pricing works?",
     "chunk_id": "pricing_group_003",
     "answer_orig": "The group rate is \u00c2\u00a312 per hour per student. For a full group of 5, the total session cost is \u00c2\u00a360 per hour.",
     "category": "pricing",
     "subcategory": "group"
   },
   {
-    "question": "What are the costs for group sessions compared to 1-to-1 tutoring?",
-    "user_query": "What are the costs for group sessions compared to 1-to-1 tutoring?",
+    "question": "What are the benefits of group sessions compared to 1-to-1 tutoring?  \nHow do I sign up for group sessions?  \nIs there a limit to the number of students in a group session?",
+    "user_query": "What are the benefits of group sessions compared to 1-to-1 tutoring?  \nHow do I sign up for group sessions?  \nIs there a limit to the number of students in a group session?",
     "chunk_id": "pricing_group_004",
     "answer_orig": "Group sessions are significantly cheaper, priced at just \u00c2\u00a312 per hour per student compared to the standard private 1-to-1 rate of \u00c2\u00a330 per hour.",
     "category": "pricing",
     "subcategory": "group"
   },
   {
-    "question": "What is the maximum number of students allowed in a group math tutoring session?",
-    "user_query": "What is the maximum number of students allowed in a group math tutoring session?",
+    "question": "What is the maximum number of students allowed in a group tutoring session?  \nWhy do you limit group sessions to only 5 students?  \nCan I expect personalized attention in a group session with 5 students?",
+    "user_query": "What is the maximum number of students allowed in a group tutoring session?  \nWhy do you limit group sessions to only 5 students?  \nCan I expect personalized attention in a group session with 5 students?",
     "chunk_id": "pricing_group_capacity_001",
     "answer_orig": "The maximum capacity for group math tutoring sessions is strictly limited to 5 students to preserve a guided learning environment.",
     "category": "pricing",
     "subcategory": "group_capacity"
   },
   {
-    "question": "How much does a group tutoring session cost if there are 5 students?",
-    "user_query": "How much does a group tutoring session cost if there are 5 students?",
+    "question": "How much does it cost for a group tutoring session?  \nWhat is the price per student for the tutoring sessions?  \nCan you explain how the total cost is calculated for a group session?",
+    "user_query": "How much does it cost for a group tutoring session?  \nWhat is the price per student for the tutoring sessions?  \nCan you explain how the total cost is calculated for a group session?",
     "chunk_id": "pricing_group_revenue_001",
     "answer_orig": "With up to 5 students paying \u00c2\u00a312 each per hour, a full group tutoring session totals \u00c2\u00a360 per hour.",
     "category": "pricing",
     "subcategory": "group_revenue"
   },
   {
-    "question": "How much do the group sessions cost, and what topics do they cover?",
-    "user_query": "How much do the group sessions cost, and what topics do they cover?",
+    "question": "How much do the group sessions cost, and what topics do you cover?  \nAre the group sessions effective for preparing for GCSE exams?  \nCan you explain how the group sessions are structured?",
+    "user_query": "How much do the group sessions cost, and what topics do you cover?  \nAre the group sessions effective for preparing for GCSE exams?  \nCan you explain how the group sessions are structured?",
     "chunk_id": "pricing_group_effectiveness_001",
     "answer_orig": "While group sessions are much more affordable at \u00c2\u00a312/hour, they remain tightly structured and guided, maintaining an intensive focus on core GCSE topics and exam practice.",
     "category": "pricing",
     "subcategory": "group_effectiveness"
   },
   {
-    "question": "How much does it cost for each student to join a group tutoring session?",
-    "user_query": "How much does it cost for each student to join a group tutoring session?",
+    "question": "How much does it cost for my child to join a group tutoring session?  \nAre there any limits on the number of students in the group tutoring sessions?  \nWhat is the maximum number of students that can participate in a group session?",
+    "user_query": "How much does it cost for my child to join a group tutoring session?  \nAre there any limits on the number of students in the group tutoring sessions?  \nWhat is the maximum number of students that can participate in a group session?",
     "chunk_id": "pricing_group_workshops_001",
     "answer_orig": "Yes, group tutoring sessions are available for up to 5 children at a rate of \u00c2\u00a312 per hour per student.",
     "category": "pricing",
     "subcategory": "group_workshops"
   },
   {
-    "question": "How does the 5% discount work if my child books multiple lessons in a month?",
-    "user_query": "How does the 5% discount work if my child books multiple lessons in a month?",
+    "question": "How does the monthly discount work for tutoring lessons?  \nCan you explain how the 5% discount is calculated on the invoice?  \nIs the discount applied automatically, or do I need to do something to receive it?",
+    "user_query": "How does the monthly discount work for tutoring lessons?  \nCan you explain how the 5% discount is calculated on the invoice?  \nIs the discount applied automatically, or do I need to do something to receive it?",
     "chunk_id": "pricing_discount_001",
     "answer_orig": "Students who book tutoring on a monthly basis automatically receive a 5% discount on their total invoice (e.g., paying \u00c2\u00a3114 instead of \u00c2\u00a3120 for 4 standard 1-to-1 classes).",
     "category": "pricing",
     "subcategory": "discounts"
   },
   {
-    "question": "How does the 5% discount work for monthly lesson bookings?",
-    "user_query": "How does the 5% discount work for monthly lesson bookings?",
+    "question": "How does the monthly discount work for lessons?  \nWhat will the final cost be if I book multiple lessons in a month?  \nIs the 5% discount applied automatically when I book my lessons?",
+    "user_query": "How does the monthly discount work for lessons?  \nWhat will the final cost be if I book multiple lessons in a month?  \nIs the 5% discount applied automatically when I book my lessons?",
     "chunk_id": "pricing_discount_002",
     "answer_orig": "Yes! When you book lessons on a monthly basis, a 5% discount applies automatically. For 4 private lessons, this reduces the cost from \u00c2\u00a3120 to \u00c2\u00a3114.",
     "category": "pricing",
     "subcategory": "discounts"
   },
   {
-    "question": "How does the 5% discount work for monthly lessons?",
-    "user_query": "How does the 5% discount work for monthly lessons?",
+    "question": "How does the monthly discount work for lessons?  \nCan you explain how the 5% discount is applied to my total invoice?  \nWhat would the final cost be after the discount for multiple lessons in a month?",
+    "user_query": "How does the monthly discount work for lessons?  \nCan you explain how the 5% discount is applied to my total invoice?  \nWhat would the final cost be after the discount for multiple lessons in a month?",
     "chunk_id": "pricing_discount_003",
     "answer_orig": "The 5% discount is calculated and applied automatically across the entire monthly total invoice. For example, a standard \u00c2\u00a3120 bill receives a \u00c2\u00a36 reduction.",
     "category": "pricing",
     "subcategory": "discounts"
   },
   {
-    "question": "How much would I pay for 4 one-to-one lessons after the discount?",
-    "user_query": "How much would I pay for 4 one-to-one lessons after the discount?",
+    "question": "How much would it cost for my child to attend three one-to-one lessons in a month?  \nIs there a discount for booking multiple lessons, and how does it work?  \nCan you explain how the discount is applied to the total cost for the lessons?",
+    "user_query": "How much would it cost for my child to attend three one-to-one lessons in a month?  \nIs there a discount for booking multiple lessons, and how does it work?  \nCan you explain how the discount is applied to the total cost for the lessons?",
     "chunk_id": "pricing_discount_004",
     "answer_orig": "Sure! For 4 private lessons, the standard price is 4 x \u00c2\u00a330 = \u00c2\u00a3120. Applying the automatic 5% monthly booking discount saves you \u00c2\u00a36, making the final payment \u00c2\u00a3114.",
     "category": "pricing",
     "subcategory": "discounts"
   },
   {
-    "question": "How does the 5% monthly booking discount work?",
-    "user_query": "How does the 5% monthly booking discount work?",
+    "question": "How does the discount work for my monthly invoice?  \nDo I need to do anything to get the 5% discount on my booking?  \nIs the discount applied to the total amount I see on my bill?",
+    "user_query": "How does the discount work for my monthly invoice?  \nDo I need to do anything to get the 5% discount on my booking?  \nIs the discount applied to the total amount I see on my bill?",
     "chunk_id": "pricing_discount_005",
     "answer_orig": "The 5% monthly booking discount is applied automatically to the full monthly invoice total; you do not have to request it manually.",
     "category": "pricing",
     "subcategory": "discounts"
   },
   {
-    "question": "How does the monthly booking discount work for lessons?",
-    "user_query": "How does the monthly booking discount work for lessons?",
+    "question": "Do we get a discount if we book lessons for the whole month?  \nHow does the monthly booking discount work?  \nIs the 5% discount applied to the total amount for the month?",
+    "user_query": "Do we get a discount if we book lessons for the whole month?  \nHow does the monthly booking discount work?  \nIs the 5% discount applied to the total amount for the month?",
     "chunk_id": "pricing_discount_006",
     "answer_orig": "Booking on a monthly basis rewards you with an automatic 5% discount across the total monthly invoice.",
     "category": "pricing",
     "subcategory": "discounts"
   },
   {
-    "question": "How does the 5% discount work for monthly lesson bookings?",
-    "user_query": "How does the 5% discount work for monthly lesson bookings?",
+    "question": "Do we get a discount if we book lessons for the whole month in advance?  \nHow does the 5% discount work for monthly bookings?  \nIs the discount applied automatically, or do we need to do something to get it?",
+    "user_query": "Do we get a discount if we book lessons for the whole month in advance?  \nHow does the 5% discount work for monthly bookings?  \nIs the discount applied automatically, or do we need to do something to get it?",
     "chunk_id": "pricing_discount_007",
     "answer_orig": "Yes, a 5% discount applies automatically to your full monthly total invoice when you book on a monthly basis.",
     "category": "pricing",
     "subcategory": "discounts"
   },
   {
-    "question": "How much would I pay for 4 one-to-one lessons after the discount?",
-    "user_query": "How much would I pay for 4 one-to-one lessons after the discount?",
+    "question": "How much do I save if I book four lessons in a month?  \nWhat is the total cost for four one-to-one lessons after the discount?  \nCan you explain how the 5% discount works for monthly bookings?",
+    "user_query": "How much do I save if I book four lessons in a month?  \nWhat is the total cost for four one-to-one lessons after the discount?  \nCan you explain how the 5% discount works for monthly bookings?",
     "chunk_id": "pricing_discount_008",
     "answer_orig": "With the automatic 5% monthly booking discount factored in, a block of 4 private lessons totals exactly \u00c2\u00a3114.",
     "category": "pricing",
     "subcategory": "discounts"
   },
   {
-    "question": "How can I get a discount if I book lessons for my child every month?",
-    "user_query": "How can I get a discount if I book lessons for my child every month?",
+    "question": "What kind of discount do I get if I book lessons monthly?  \nHow does the monthly invoicing work for lesson payments?  \nCan you explain how the 5% discount is applied to the total invoice?",
+    "user_query": "What kind of discount do I get if I book lessons monthly?  \nHow does the monthly invoicing work for lesson payments?  \nCan you explain how the 5% discount is applied to the total invoice?",
     "chunk_id": "pricing_discount_009",
     "answer_orig": "Booking on a monthly invoicing track automatically saves you 5% off the standard cumulative pricing total.",
     "category": "pricing",
     "subcategory": "discounts"
   },
   {
-    "question": "What times are the math lessons available during the weekdays and weekends?",
-    "user_query": "What times are the math lessons available during the weekdays and weekends?",
+    "question": "What are the available lesson times for Wali's tutoring?  \nCan I book a lesson on a weekend, and what times are available?  \nHow do I know if a specific time slot is free for booking?",
+    "user_query": "What are the available lesson times for Wali's tutoring?  \nCan I book a lesson on a weekend, and what times are available?  \nHow do I know if a specific time slot is free for booking?",
     "chunk_id": "schedule_weekday_001",
     "answer_orig": "Lessons are standardly available on Weekdays from 4pm to 8pm UK time, and on Weekends from 10am to 2pm UK time, subject to current slot bookings.",
     "category": "availability",
     "subcategory": "weekday_hours"
   },
   {
-    "question": "What time can I book a lesson with Wali on a weekday?",
-    "user_query": "What time can I book a lesson with Wali on a weekday?",
+    "question": "What times are available for tutoring lessons with Wali?  \nCan I book a lesson after school during the week?  \nHow do I find out if there are open slots for tutoring?",
+    "user_query": "What times are available for tutoring lessons with Wali?  \nCan I book a lesson after school during the week?  \nHow do I find out if there are open slots for tutoring?",
     "chunk_id": "schedule_weekday_002",
     "answer_orig": "Yes, Wali offers after-school slots on weekdays from 4pm to 8pm UK time, though specific availability depends on open slots.",
     "category": "availability",
     "subcategory": "weekday_hours"
   },
   {
-    "question": "What time do the lessons end on weekdays?",
-    "user_query": "What time do the lessons end on weekdays?",
+    "question": "What time do the lessons finish on weekdays?  \nCan I schedule a lesson after 8pm UK time?  \nHow late can I book a lesson during the week?",
+    "user_query": "What time do the lessons finish on weekdays?  \nCan I schedule a lesson after 8pm UK time?  \nHow late can I book a lesson during the week?",
     "chunk_id": "schedule_weekday_003",
     "answer_orig": "Standard weekday lessons conclude at 8pm UK time.",
     "category": "availability",
     "subcategory": "weekday_hours"
   },
   {
-    "question": "What times are available for math lessons on the weekends?",
-    "user_query": "What times are available for math lessons on the weekends?",
+    "question": "What times are the weekend lessons available?  \nAre there any specific weekend slots that are already booked?  \nCan I schedule a lesson outside of the available weekend hours?",
+    "user_query": "What times are the weekend lessons available?  \nAre there any specific weekend slots that are already booked?  \nCan I schedule a lesson outside of the available weekend hours?",
     "chunk_id": "schedule_weekend_001",
     "answer_orig": "Yes, weekend slots are available from 10am to 2pm UK time, depending on what slots remain unbooked.",
     "category": "availability",
     "subcategory": "weekend_hours"
   },
   {
-    "question": "What time can I book a tutoring session with Wali on the weekend?",
-    "user_query": "What time can I book a tutoring session with Wali on the weekend?",
+    "question": "What times are you available for tutoring on weekends?  \nCan I book a session with you on a Saturday or Sunday?  \nIs your weekend availability the same every week?",
+    "user_query": "What times are you available for tutoring on weekends?  \nCan I book a session with you on a Saturday or Sunday?  \nIs your weekend availability the same every week?",
     "chunk_id": "schedule_weekend_002",
     "answer_orig": "Weekend tutoring availability runs specifically from 10am to 2pm UK time.",
     "category": "availability",
     "subcategory": "weekend_hours"
   },
   {
-    "question": "What time do the weekend tutoring sessions start?",
-    "user_query": "What time do the weekend tutoring sessions start?",
+    "question": "What time do your tutoring sessions start on the weekends?  \nAre you available for tutoring on weekends?  \nCan I book a session with you after 10am on a Saturday?",
+    "user_query": "What time do your tutoring sessions start on the weekends?  \nAre you available for tutoring on weekends?  \nCan I book a session with you after 10am on a Saturday?",
     "chunk_id": "schedule_weekend_003",
     "answer_orig": "Weekend tutoring slots open up starting at 10am UK time.",
     "category": "availability",
     "subcategory": "weekend_hours"
   },
   {
-    "question": "Can you tell me what time slots are available for tutoring sessions?",
-    "user_query": "Can you tell me what time slots are available for tutoring sessions?",
+    "question": "What times are available for tutoring sessions with Wali?  \nCan I book a specific time for my child\u2019s math tutoring?  \nHow do I find out if there are open slots for tutoring?",
+    "user_query": "What times are available for tutoring sessions with Wali?  \nCan I book a specific time for my child\u2019s math tutoring?  \nHow do I find out if there are open slots for tutoring?",
     "chunk_id": "schedule_availability_001",
     "answer_orig": "No, specific slot openings vary dynamically based on prior student bookings.",
     "category": "availability",
     "subcategory": "slot_availability"
   },
   {
-    "question": "Is there a 6pm slot available on Tuesday for a math lesson?",
-    "user_query": "Is there a 6pm slot available on Tuesday for a math lesson?",
+    "question": "What time slots do you have available for tutoring on Tuesdays?  \nCan I book a lesson at 6pm on a weekday?  \nHow do I find out if a specific time is available for a lesson?",
+    "user_query": "What time slots do you have available for tutoring on Tuesdays?  \nCan I book a lesson at 6pm on a weekday?  \nHow do I find out if a specific time is available for a lesson?",
     "chunk_id": "schedule_availability_002",
     "answer_orig": "A 6pm Tuesday slot falls right within standard weekday hours (4pm\u00e2\u20ac\u201c8pm UK time), but availability must be confirmed manually based on current bookings.",
     "category": "availability",
     "subcategory": "slot_availability"
   },
   {
-    "question": "What time can I book a lesson with Wali on a Wednesday?",
-    "user_query": "What time can I book a lesson with Wali on a Wednesday?",
+    "question": "What times are available for lessons during the week?  \nCan I book a lesson at 5pm on Wednesday?  \nHow do I know if a specific time is available for my lesson?",
+    "user_query": "What times are available for lessons during the week?  \nCan I book a lesson at 5pm on Wednesday?  \nHow do I know if a specific time is available for my lesson?",
     "chunk_id": "schedule_availability_003",
     "answer_orig": "5pm on a Wednesday sits right inside standard weekday hours (4pm\u00e2\u20ac\u201c8pm UK time). Openings are subject to manual confirmation based on prior client bookings.",
     "category": "availability",
     "subcategory": "slot_availability"
   },
   {
-    "question": "What time do the evening tutoring sessions with Wali start and end?",
-    "user_query": "What time do the evening tutoring sessions with Wali start and end?",
+    "question": "What times are the tutoring sessions available in the evenings?  \nCan I schedule a lesson after school during the weekdays?  \nAre the evening lessons offered every day from Monday to Friday?",
+    "user_query": "What times are the tutoring sessions available in the evenings?  \nCan I schedule a lesson after school during the weekdays?  \nAre the evening lessons offered every day from Monday to Friday?",
     "chunk_id": "schedule_evening_001",
     "answer_orig": "Yes, Wali offers weekday evening lessons between 4:00 PM and 8:30 PM UK time.",
     "category": "availability",
     "subcategory": "extended_hours"
   },
   {
-    "question": "What time does the last tutoring session start in the evening?",
-    "user_query": "What time does the last tutoring session start in the evening?",
+    "question": "What time does the last tutoring session start in the evening?  \nAre the evening math classes held online or in person?  \nHow long does each online tutoring session last?",
+    "user_query": "What time does the last tutoring session start in the evening?  \nAre the evening math classes held online or in person?  \nHow long does each online tutoring session last?",
     "chunk_id": "schedule_evening_002",
     "answer_orig": "The latest tutoring slot runs from 7:30 PM to 8:30 PM online.",
     "category": "availability",
     "subcategory": "extended_hours"
   },
   {
-    "question": "What are the available times for tutoring sessions if the weekday evening slots are fully booked?",
-    "user_query": "What are the available times for tutoring sessions if the weekday evening slots are fully booked?",
+    "question": "What should I do if all the weekday evening slots are booked?  \nAre there any weekend sessions available if I can't get a weekday slot?  \nWhat time do the Saturday morning sessions start and end?",
+    "user_query": "What should I do if all the weekday evening slots are booked?  \nAre there any weekend sessions available if I can't get a weekday slot?  \nWhat time do the Saturday morning sessions start and end?",
     "chunk_id": "schedule_weekend_backup_001",
     "answer_orig": "Saturday morning sessions from 9:00 AM to 1:00 PM are available if evening slots are full.",
     "category": "availability",
     "subcategory": "extended_hours"
   },
   {
-    "question": "Do I need to download any special software for the online lessons with Wali?",
-    "user_query": "Do I need to download any special software for the online lessons with Wali?",
+    "question": "How do the online lessons work, and what technology do we need to participate?  \nIs there any travel required for the tutoring sessions, or can we do everything from home?  \nCan my child use a tablet or smartphone for the lessons, or do they need a computer?",
+    "user_query": "How do the online lessons work, and what technology do we need to participate?  \nIs there any travel required for the tutoring sessions, or can we do everything from home?  \nCan my child use a tablet or smartphone for the lessons, or do they need a computer?",
     "chunk_id": "format_online_001",
     "answer_orig": "All tutoring is conducted completely online via Zoom paired with a shared interactive whiteboard. There is no travel involved; students just need a web-connected device.",
     "category": "lesson_format",
     "subcategory": "delivery_method"
   },
   {
-    "question": "Does Wali offer in-person tutoring sessions?",
-    "user_query": "Does Wali offer in-person tutoring sessions?",
+    "question": "Can Wali come to my home for tutoring sessions?  \nHow do the online lessons work with Zoom and the interactive whiteboard?  \nIs there any need for my child to travel for the tutoring sessions?",
+    "user_query": "Can Wali come to my home for tutoring sessions?  \nHow do the online lessons work with Zoom and the interactive whiteboard?  \nIs there any need for my child to travel for the tutoring sessions?",
     "chunk_id": "format_online_002",
     "answer_orig": "No, Wali does not provide in-person home visits. All tutoring sessions are held 100% online so students do not need to travel.",
     "category": "lesson_format",
     "subcategory": "delivery_method"
   },
   {
-    "question": "How do the online lessons work, and do we need to go anywhere to attend them?",
-    "user_query": "How do the online lessons work, and do we need to go anywhere to attend them?",
+    "question": "How do the online lessons work with Zoom and the interactive whiteboard?  \nWill my child need to travel to any physical location for the lessons?  \nWhat technology do we need to participate in the online classes?",
+    "user_query": "How do the online lessons work with Zoom and the interactive whiteboard?  \nWill my child need to travel to any physical location for the lessons?  \nWhat technology do we need to participate in the online classes?",
     "chunk_id": "format_online_003",
     "answer_orig": "There is no physical school building to visit. All learning occurs remotely via Zoom using a shared interactive whiteboard, completely eliminating travel.",
     "category": "lesson_format",
     "subcategory": "delivery_method"
   },
   {
-    "question": "What equipment does my child need for the online math lessons?",
-    "user_query": "What equipment does my child need for the online math lessons?",
+    "question": "How do the online lessons work, and what do we need to participate?  \nIs there a specific device or software my child needs for the lessons?  \nCan my child join the lessons from anywhere, or are there location restrictions?",
+    "user_query": "How do the online lessons work, and what do we need to participate?  \nIs there a specific device or software my child needs for the lessons?  \nCan my child join the lessons from anywhere, or are there location restrictions?",
     "chunk_id": "format_requirements_001",
     "answer_orig": "Lessons are managed via Zoom alongside a shared digital whiteboard. No complex hardware is required; your child only needs a device featuring working internet access.",
     "category": "lesson_format",
     "subcategory": "technical_requirements"
   },
   {
-    "question": "Do my child and I need any special equipment to participate in the online math lessons, or will a regular computer work?",
-    "user_query": "Do my child and I need any special equipment to participate in the online math lessons, or will a regular computer work?",
+    "question": "Do I need any special equipment for the online lessons, or will my laptop be enough?  \nCan I use my tablet or phone to attend the math tutoring sessions?  \nWhat if my internet connection isn't very stable\u2014will that affect my lessons?",
+    "user_query": "Do I need any special equipment for the online lessons, or will my laptop be enough?  \nCan I use my tablet or phone to attend the math tutoring sessions?  \nWhat if my internet connection isn't very stable\u2014will that affect my lessons?",
     "chunk_id": "format_requirements_002",
     "answer_orig": "Specialized equipment like drawing tablets isn't explicitly mandatory; students simply need any standard device with stable internet access to interact on the whiteboard.",
     "category": "lesson_format",
     "subcategory": "technical_requirements"
   },
   {
-    "question": "What kind of device do we need to use Wali's tutoring services?",
-    "user_query": "What kind of device do we need to use Wali's tutoring services?",
+    "question": "Do I need any special software to use Wali's tutoring sessions?  \nCan I join the sessions from my tablet or phone?  \nWhat happens if my internet connection is unstable during a lesson?",
+    "user_query": "Do I need any special software to use Wali's tutoring sessions?  \nCan I join the sessions from my tablet or phone?  \nWhat happens if my internet connection is unstable during a lesson?",
     "chunk_id": "format_requirements_003",
     "answer_orig": "Yes, a laptop with working internet access is perfect for logging into Zoom and accessing the shared interactive whiteboard.",
     "category": "lesson_format",
     "subcategory": "technical_requirements"
   },
   {
-    "question": "Do we need a specific type of device or just any device with internet access for the online classes?",
-    "user_query": "Do we need a specific type of device or just any device with internet access for the online classes?",
+    "question": "Do we need any special equipment to participate in the online classes?  \nWhat happens if our internet connection is unstable during a lesson?  \nCan my child join the class from a tablet or smartphone?",
+    "user_query": "Do we need any special equipment to participate in the online classes?  \nWhat happens if our internet connection is unstable during a lesson?  \nCan my child join the class from a tablet or smartphone?",
     "chunk_id": "format_requirements_004",
     "answer_orig": "Yes, stable internet access is absolutely mandatory so your child can successfully join the online Zoom call and interactive whiteboard workspace.",
     "category": "lesson_format",
     "subcategory": "technical_requirements"
   },
   {
-    "question": "How does the interactive whiteboard work during the online math lessons?",
-    "user_query": "How does the interactive whiteboard work during the online math lessons?",
+    "question": "How do the online lessons work with Zoom and the interactive whiteboard?  \nCan students ask questions while the tutor is teaching during the live session?  \nWhat tools do you use on the interactive whiteboard to help explain math concepts?",
+    "user_query": "How do the online lessons work with Zoom and the interactive whiteboard?  \nCan students ask questions while the tutor is teaching during the live session?  \nWhat tools do you use on the interactive whiteboard to help explain math concepts?",
     "chunk_id": "format_whiteboard_001",
     "answer_orig": "Students and the tutor can visually collaborate and sketch math formulas in real-time using a shared interactive whiteboard during the live Zoom call.",
     "category": "lesson_format",
     "subcategory": "tools"
   },
   {
-    "question": "How does the interactive whiteboard work during the online tutoring sessions?",
-    "user_query": "How does the interactive whiteboard work during the online tutoring sessions?",
+    "question": "How do the online lessons work with Zoom and the interactive whiteboard?  \nWill my child be able to see the whiteboard while using Zoom for their tutoring sessions?  \nCan you explain how the interactive whiteboard enhances the learning experience during the lessons?",
+    "user_query": "How do the online lessons work with Zoom and the interactive whiteboard?  \nWill my child be able to see the whiteboard while using Zoom for their tutoring sessions?  \nCan you explain how the interactive whiteboard enhances the learning experience during the lessons?",
     "chunk_id": "format_whiteboard_002",
     "answer_orig": "Yes, all online tutoring classes integrate a shared interactive whiteboard alongside Zoom to build a visual learning environment.",
     "category": "lesson_format",
     "subcategory": "tools"
   },
   {
-    "question": "How does Wali help students who are struggling with their foundational math skills?",
-    "user_query": "How does Wali help students who are struggling with their foundational math skills?",
+    "question": "How does Wali determine my child's current math level before starting lessons?  \nWhat kind of foundational skills will be covered before moving on to GCSE exam questions?  \nHow can I be sure that my child will gain confidence in math through this tutoring approach?",
+    "user_query": "How does Wali determine my child's current math level before starting lessons?  \nWhat kind of foundational skills will be covered before moving on to GCSE exam questions?  \nHow can I be sure that my child will gain confidence in math through this tutoring approach?",
     "chunk_id": "pedagogy_struggling_001",
     "answer_orig": "Struggling students are carefully guided step-by-step starting right at their current knowledge baseline. Wali works on rebuilding core foundational math gaps before testing them on harder GCSE questions, ensuring steady and confident progress.",
     "category": "teaching_approach",
     "subcategory": "struggling_students"
   },
   {
-    "question": "How does Wali help students who are struggling with math to improve their foundational skills?",
-    "user_query": "How does Wali help students who are struggling with math to improve their foundational skills?",
+    "question": "How does Wali help students who are really struggling with math concepts?  \nWhat steps are taken to rebuild foundational skills before tackling GCSE exam questions?  \nCan you explain how Wali's approach builds confidence in students who find math challenging?",
+    "user_query": "How does Wali help students who are really struggling with math concepts?  \nWhat steps are taken to rebuild foundational skills before tackling GCSE exam questions?  \nCan you explain how Wali's approach builds confidence in students who find math challenging?",
     "chunk_id": "pedagogy_struggling_002",
     "answer_orig": "Don't panic. Struggling students are supported with a patient step-by-step method tailored to their current skill level. Wali focuses entirely on repairing weak foundational skills first, allowing the student to approach difficult GCSE problems with renewed confidence.",
     "category": "teaching_approach",
     "subcategory": "struggling_students"
   },
   {
-    "question": "How does Wali help students who are struggling with math to prepare for their GCSE exams?",
-    "user_query": "How does Wali help students who are struggling with math to prepare for their GCSE exams?",
+    "question": "How does Wali help students who are struggling with math concepts?  \nWhat approach does Wali use to ensure my child understands the basics before tackling GCSE questions?  \nCan Wali provide personalized support for my child\u2019s specific math challenges?",
+    "user_query": "How does Wali help students who are struggling with math concepts?  \nWhat approach does Wali use to ensure my child understands the basics before tackling GCSE questions?  \nCan Wali provide personalized support for my child\u2019s specific math challenges?",
     "chunk_id": "pedagogy_struggling_003",
     "answer_orig": "Yes, Wali can certainly help. He uses a step-by-step method designed specifically for struggling students, focusing on rebuilding foundational gaps before moving onto core GCSE questions.",
     "category": "teaching_approach",
     "subcategory": "struggling_students"
   },
   {
-    "question": "Why is it important to focus on foundational skills before tackling harder GCSE exam questions?",
-    "user_query": "Why is it important to focus on foundational skills before tackling harder GCSE exam questions?",
+    "question": "What if my child has been struggling with math for a while? How will you help them build their confidence?  \nCan you explain how you assess which foundational skills my child needs to work on?  \nHow long does it typically take for students to progress to GCSE exam questions?",
+    "user_query": "What if my child has been struggling with math for a while? How will you help them build their confidence?  \nCan you explain how you assess which foundational skills my child needs to work on?  \nHow long does it typically take for students to progress to GCSE exam questions?",
     "chunk_id": "pedagogy_struggling_004",
     "answer_orig": "No, jumping straight into hard past paper questions can damage a weak student's confidence. The core teaching strategy is to systematically rebuild foundational missing skills first, gradually working up to strict GCSE exam questions.",
     "category": "teaching_approach",
     "subcategory": "struggling_students"
   },
   {
-    "question": "How does Wali help students who are struggling with basic math concepts before tackling GCSE exam questions?",
-    "user_query": "How does Wali help students who are struggling with basic math concepts before tackling GCSE exam questions?",
+    "question": "How does your teaching approach help students who are struggling with math?  \nWhat specific foundational skills do you focus on before moving to GCSE exam questions?  \nHow can rebuilding confidence in math improve a student's performance in exams?",
+    "user_query": "How does your teaching approach help students who are struggling with math?  \nWhat specific foundational skills do you focus on before moving to GCSE exam questions?  \nHow can rebuilding confidence in math improve a student's performance in exams?",
     "chunk_id": "pedagogy_struggling_005",
     "answer_orig": "Steady progress is achieved by stripping away the complexity and solidifying foundational skills first. Once bases are secure, stepping into advanced GCSE exam content helps students build momentum without stress.",
     "category": "teaching_approach",
     "subcategory": "struggling_students"
   },
   {
-    "question": "How does Wali determine my child's current level in math before starting the tutoring sessions?",
-    "user_query": "How does Wali determine my child's current level in math before starting the tutoring sessions?",
+    "question": "How does Wali determine my child's current level in math?  \nWhat if my child has gaps in their foundational skills?  \nCan Wali help with specific GCSE exam questions once the basics are covered?",
+    "user_query": "How does Wali determine my child's current level in math?  \nWhat if my child has gaps in their foundational skills?  \nCan Wali help with specific GCSE exam questions once the basics are covered?",
     "chunk_id": "pedagogy_struggling_006",
     "answer_orig": "Wali works with students precisely at their current level, no matter how far back that baseline is. He prioritizes structural, step-by-step development of foundational blocks before handling actual target GCSE questions.",
     "category": "teaching_approach",
     "subcategory": "struggling_students"
   },
   {
-    "question": "How does Wali ensure that my child has the foundational skills needed before tackling GCSE exam questions?",
-    "user_query": "How does Wali ensure that my child has the foundational skills needed before tackling GCSE exam questions?",
+    "question": "How does Wali ensure that my child is solidifying their foundational math skills?  \nWhat specific strategies do you use to help students tackle harder GCSE exam questions?  \nCan you explain how the tutoring sessions are structured to focus on foundational skills first?",
+    "user_query": "How does Wali ensure that my child is solidifying their foundational math skills?  \nWhat specific strategies do you use to help students tackle harder GCSE exam questions?  \nCan you explain how the tutoring sessions are structured to focus on foundational skills first?",
     "chunk_id": "pedagogy_struggling_007",
     "answer_orig": "Yes, the entire instructional framework is built explicitly around targeting and rebuilding core foundational mathematical skills before dealing with advanced exam specifications.",
     "category": "teaching_approach",
     "subcategory": "struggling_students"
   },
   {
-    "question": "How does Wali help my child improve their math skills if they're struggling?",
-    "user_query": "How does Wali help my child improve their math skills if they're struggling?",
+    "question": "How does Wali assess my child's current math level before starting tutoring?  \nWhat steps does Wali take to help my child improve their foundational math skills?  \nWill my child be ready for GCSE exam questions after working with Wali?",
+    "user_query": "How does Wali assess my child's current math level before starting tutoring?  \nWhat steps does Wali take to help my child improve their foundational math skills?  \nWill my child be ready for GCSE exam questions after working with Wali?",
     "chunk_id": "pedagogy_struggling_008",
     "answer_orig": "Improvement is built step-by-step by checking their current level and methodically fixing any foundational skill gaps. This prepares them to advance into complex GCSE exam questions without confusion.",
     "category": "teaching_approach",
     "subcategory": "struggling_students"
   },
   {
-    "question": "How does Wali help my child build confidence in math before tackling GCSE exam questions?",
-    "user_query": "How does Wali help my child build confidence in math before tackling GCSE exam questions?",
+    "question": "How does your tutoring approach help my child build confidence in math?  \nWhat specific foundational skills do you focus on before moving to GCSE exam questions?  \nHow do you ensure that my child is ready for the formal GCSE work after rebuilding their basic skills?",
+    "user_query": "How does your tutoring approach help my child build confidence in math?  \nWhat specific foundational skills do you focus on before moving to GCSE exam questions?  \nHow do you ensure that my child is ready for the formal GCSE work after rebuilding their basic skills?",
     "chunk_id": "pedagogy_confidence_001",
     "answer_orig": "Confidence is restored by stripping away high-pressure problems and focusing heavily on rebuilding basic skills first. Once these missing gaps are repaired, tackling formal GCSE work becomes a natural, steady progression.",
     "category": "teaching_approach",
     "subcategory": "confidence_building"
   },
   {
-    "question": "How does Wali help students who struggle with math and lack confidence?",
-    "user_query": "How does Wali help students who struggle with math and lack confidence?",
+    "question": "How does Wali help students who dislike math?  \nWhat techniques does Wali use to build a student's confidence in math?  \nCan you explain how Wali introduces more difficult math concepts?",
+    "user_query": "How does Wali help students who dislike math?  \nWhat techniques does Wali use to build a student's confidence in math?  \nCan you explain how Wali introduces more difficult math concepts?",
     "chunk_id": "pedagogy_confidence_002",
     "answer_orig": "Yes, building confidence is a pillar of Wali's teaching philosophy. He begins with simple, manageable steps to re-establish a foundation of understanding before carefully introducing harder concepts.",
     "category": "teaching_approach",
     "subcategory": "confidence_building"
   },
   {
-    "question": "Why are your tutoring lessons priced higher than other options available?",
-    "user_query": "Why are your tutoring lessons priced higher than other options available?",
+    "question": "Why are your tutoring sessions more expensive than other options available?  \nHow do you ensure that the lessons are personalized for my child's specific needs?  \nWhat kind of improvements in exam performance can we expect from your tutoring?",
+    "user_query": "Why are your tutoring sessions more expensive than other options available?  \nHow do you ensure that the lessons are personalized for my child's specific needs?  \nWhat kind of improvements in exam performance can we expect from your tutoring?",
     "chunk_id": "objection_price_001",
     "answer_orig": "While the fee reflects premium placement, the value stems from highly personalized, pinpointed intervention designed around rapid exam performance gains rather than generic group classroom instruction.",
     "category": "objections_and_concerns",
     "subcategory": "pricing_objections"
   },
   {
-    "question": "Why are your tutoring sessions more expensive than other options available?",
-    "user_query": "Why are your tutoring sessions more expensive than other options available?",
+    "question": "Why are your lessons more expensive than other tutoring options?  \nWhat makes your tutoring approach different from other generic math tutors?  \nHow can I be sure that the investment in your lessons will lead to better exam results?",
+    "user_query": "Why are your lessons more expensive than other tutoring options?  \nWhat makes your tutoring approach different from other generic math tutors?  \nHow can I be sure that the investment in your lessons will lead to better exam results?",
     "chunk_id": "objection_price_002",
     "answer_orig": "Understood, cheaper alternatives do exist. However, Wali's pricing covers a deeply personalized and specialized framework strictly geared towards boosting formal GCSE exam marks efficiently, bypassing generic overview teaching styles.",
     "category": "objections_and_concerns",
     "subcategory": "pricing_objections"
   },
   {
-    "question": "Why is the hourly rate for tutoring \u00a330 when other tutors charge less?",
-    "user_query": "Why is the hourly rate for tutoring \u00a330 when other tutors charge less?",
+    "question": "Why is your hourly rate higher than other tutoring options?  \nWhat makes your tutoring approach more effective than traditional methods?  \nCan you explain how your lessons are tailored to my child's specific needs?",
+    "user_query": "Why is your hourly rate higher than other tutoring options?  \nWhat makes your tutoring approach more effective than traditional methods?  \nCan you explain how your lessons are tailored to my child's specific needs?",
     "chunk_id": "objection_price_003",
     "answer_orig": "The \u00c2\u00a330 hourly rate represents a premium, highly tailored experience focused on structural exam technique mastery and direct topic improvement, maximizing efficiency far better than standard textbook teaching.",
     "category": "objections_and_concerns",
     "subcategory": "pricing_objections"
   },
   {
-    "question": "Why are your tutoring lessons more expensive than others?",
-    "user_query": "Why are your tutoring lessons more expensive than others?",
+    "question": "Why are your tutoring lessons more expensive than others?  \nHow do you ensure that the tutoring is personalized for my child?  \nWhat kind of improvements can we expect in exam performance from your sessions?",
+    "user_query": "Why are your tutoring lessons more expensive than others?  \nHow do you ensure that the tutoring is personalized for my child?  \nWhat kind of improvements can we expect in exam performance from your sessions?",
     "chunk_id": "objection_price_004",
     "answer_orig": "Yes, because it centers explicitly on customized, student-specific optimization. By pinpointing personal learning gaps and drilling exact exam board criteria efficiently, it yields tangible performance enhancements.",
     "category": "objections_and_concerns",
     "subcategory": "pricing_objections"
   },
   {
-    "question": "Why are your 1-to-1 lessons more expensive than group sessions?",
-    "user_query": "Why are your 1-to-1 lessons more expensive than group sessions?",
+    "question": "Why are your tutoring lessons more expensive than other options?  \nCan you explain how your personalized approach improves exam performance?  \nAre there any discounts available for booking multiple sessions?",
+    "user_query": "Why are your tutoring lessons more expensive than other options?  \nCan you explain how your personalized approach improves exam performance?  \nAre there any discounts available for booking multiple sessions?",
     "chunk_id": "objection_price_005",
     "answer_orig": "The individual 1-to-1 rate is fixed to guarantee specialized personalization. If budget optimization is required, you can check out our group sessions at a highly reduced price of \u00c2\u00a312 per hour, or leverage the 5% monthly booking discount.",
     "category": "objections_and_concerns",
     "subcategory": "pricing_objections"
   },
   {
-    "question": "Why is your tutoring more expensive than other options available?",
-    "user_query": "Why is your tutoring more expensive than other options available?",
+    "question": "Why are your tutoring lessons more expensive compared to other options?  \nHow does your personalized approach lead to better exam results?  \nCan you explain how your tutoring is different from traditional teaching methods?",
+    "user_query": "Why are your tutoring lessons more expensive compared to other options?  \nHow does your personalized approach lead to better exam results?  \nCan you explain how your tutoring is different from traditional teaching methods?",
     "chunk_id": "objection_price_006",
     "answer_orig": "The investment reflects that this tuition is completely individualized and engineered specifically around rapid exam score improvements, delivering far better efficiency than generic teaching styles.",
     "category": "objections_and_concerns",
     "subcategory": "pricing_objections"
   },
   {
-    "question": "How does your tutoring approach differ from traditional textbook methods in preparing for exams?",
-    "user_query": "How does your tutoring approach differ from traditional textbook methods in preparing for exams?",
+    "question": "How does your tutoring approach differ from traditional classroom teaching?  \nWhat specific strategies do you use to help improve exam performance?  \nCan you explain how you personalize the tutoring sessions for each student?",
+    "user_query": "How does your tutoring approach differ from traditional classroom teaching?  \nWhat specific strategies do you use to help improve exam performance?  \nCan you explain how you personalize the tutoring sessions for each student?",
     "chunk_id": "objection_price_007",
     "answer_orig": "The investment pays off because the sessions bypass slow, generic textbook teaching. Instead, you receive highly personalized strategies engineered explicitly to maximize exam performance efficiently.",
     "category": "objections_and_concerns",
     "subcategory": "pricing_objections"
   },
   {
-    "question": "How does Wali's tutoring approach differ from traditional math tutoring methods?",
-    "user_query": "How does Wali's tutoring approach differ from traditional math tutoring methods?",
+    "question": "How does your tutoring approach differ from traditional teaching methods?  \nCan you explain how your personalized sessions improve exam performance?  \nWhat factors contribute to the pricing of your tutoring services?",
+    "user_query": "How does your tutoring approach differ from traditional teaching methods?  \nCan you explain how your personalized sessions improve exam performance?  \nWhat factors contribute to the pricing of your tutoring services?",
     "chunk_id": "objection_price_008",
     "answer_orig": "The pricing represents a specialized, highly personalized architecture. It focuses exclusively on building rapid exam performance gains efficiently, which is much more effective than generic teaching styles.",
     "category": "objections_and_concerns",
     "subcategory": "pricing_objections"
   },
   {
-    "question": "How does Wali help my child if they really dislike math and feel overwhelmed by it?",
-    "user_query": "How does Wali help my child if they really dislike math and feel overwhelmed by it?",
+    "question": "What strategies does Wali use to help my child who hates math?  \nHow does Wali approach teaching a student who lacks confidence in their math skills?  \nCan you explain how Wali builds up a child's understanding of math gradually?",
+    "user_query": "What strategies does Wali use to help my child who hates math?  \nHow does Wali approach teaching a student who lacks confidence in their math skills?  \nCan you explain how Wali builds up a child's understanding of math gradually?",
     "chunk_id": "objection_confidence_001",
     "answer_orig": "If a child struggles with intense math anxiety or absolute loss of confidence, Wali starts carefully using low-stress, highly manageable tasks to build early win states before scaling the curriculum complexity up.",
     "category": "objections_and_concerns",
     "subcategory": "confidence_objections"
   },
   {
-    "question": "How does Wali help my child who struggles with math and feels overwhelmed by homework?",
-    "user_query": "How does Wali help my child who struggles with math and feels overwhelmed by homework?",
+    "question": "What strategies does Wali use to help my child who struggles with confidence in math?  \nHow does Wali approach teaching math to a student who hates the subject?  \nCan you explain how Wali builds up from simple steps to more challenging math concepts?",
+    "user_query": "What strategies does Wali use to help my child who struggles with confidence in math?  \nHow does Wali approach teaching math to a student who hates the subject?  \nCan you explain how Wali builds up from simple steps to more challenging math concepts?",
     "chunk_id": "objection_confidence_002",
     "answer_orig": "Seeing your child distressed by homework is tough. To counter this, Wali sets aside stressful tasks and begins with simple, minor, structured steps designed to restore early understanding and break down the emotional block safely before increasing standard difficulty.",
     "category": "objections_and_concerns",
     "subcategory": "confidence_objections"
   },
   {
-    "question": "How does Wali help students who struggle with math and lack confidence?",
-    "user_query": "How does Wali help students who struggle with math and lack confidence?",
+    "question": "What if my child really struggles with math and feels like they can't improve?  \nHow does Wali help students who have a negative attitude towards math?  \nCan you explain how you build up a student's confidence in math step by step?",
+    "user_query": "What if my child really struggles with math and feels like they can't improve?  \nHow does Wali help students who have a negative attitude towards math?  \nCan you explain how you build up a student's confidence in math step by step?",
     "chunk_id": "objection_confidence_003",
     "answer_orig": "Wali addresses negative self-beliefs directly through customized pedagogy. By starting with straightforward, perfectly attainable milestones, students prove to themselves they can solve problems correctly, naturally paving the way to harder math topics.",
     "category": "objections_and_concerns",
     "subcategory": "confidence_objections"
   },
   {
-    "question": "How do you help students who struggle with confidence in math?",
-    "user_query": "How do you help students who struggle with confidence in math?",
+    "question": "What if my child really struggles with math and feels overwhelmed by the subject?  \nHow do you help students who have lost confidence in their math abilities?  \nCan you explain how you break down complex math concepts into simpler steps?",
+    "user_query": "What if my child really struggles with math and feels overwhelmed by the subject?  \nHow do you help students who have lost confidence in their math abilities?  \nCan you explain how you break down complex math concepts into simpler steps?",
     "chunk_id": "objection_confidence_004",
     "answer_orig": "The exact strategy is pacing containment. By chunking complex mathematics down into micro-steps that are simple and highly manageable, the student gains solid understanding cleanly without getting overwhelmed.",
     "category": "objections_and_concerns",
     "subcategory": "confidence_objections"
   },
   {
-    "question": "How does Wali help students who feel anxious or lack confidence in math?",
-    "user_query": "How does Wali help students who feel anxious or lack confidence in math?",
+    "question": "What strategies does Wali use to help my child who struggles with confidence in math?  \nHow does Wali ensure that lessons are suitable for students who dislike math?  \nCan Wali tailor the lessons to start with very basic concepts for my child?",
+    "user_query": "What strategies does Wali use to help my child who struggles with confidence in math?  \nHow does Wali ensure that lessons are suitable for students who dislike math?  \nCan Wali tailor the lessons to start with very basic concepts for my child?",
     "chunk_id": "objection_confidence_005",
     "answer_orig": "Wali completely accommodates low confidence. He systematically structures lessons around small, highly manageable conceptual steps to build understanding before increasing difficulty.",
     "category": "objections_and_concerns",
     "subcategory": "confidence_objections"
   },
   {
-    "question": "How does Wali help students who really dislike math and feel overwhelmed?",
-    "user_query": "How does Wali help students who really dislike math and feel overwhelmed?",
+    "question": "What if my child really hates math and feels overwhelmed by it?  \nHow does Wali help build my child's confidence in math?  \nCan you explain how you break down complex math concepts for students?",
+    "user_query": "What if my child really hates math and feels overwhelmed by it?  \nHow does Wali help build my child's confidence in math?  \nCan you explain how you break down complex math concepts for students?",
     "chunk_id": "objection_confidence_006",
     "answer_orig": "Yes, intense dislike for math usually stems from structural confusion and feeling overwhelmed. Wali fixes this by stripping away complex items and introducing highly manageable micro-steps to secure basic understanding before scaling up complexity.",
     "category": "objections_and_concerns",
     "subcategory": "confidence_objections"
   },
   {
-    "question": "How does Wali help students who struggle with confidence in math?",
-    "user_query": "How does Wali help students who struggle with confidence in math?",
+    "question": "What if my child really hates math and feels overwhelmed by it?  \nHow does Wali help students who lack confidence in their math skills?  \nCan you explain how you start with simple steps to help rebuild my child's understanding of math?",
+    "user_query": "What if my child really hates math and feels overwhelmed by it?  \nHow does Wali help students who lack confidence in their math skills?  \nCan you explain how you start with simple steps to help rebuild my child's understanding of math?",
     "chunk_id": "objection_confidence_007",
     "answer_orig": "Test-related stress typically highlights underlying confidence issues. Wali bypasses overwhelming milestones, starting with simple, highly manageable math steps to steady their understanding first.",
     "category": "objections_and_concerns",
     "subcategory": "confidence_objections"
   },
   {
-    "question": "What happens if I need to cancel a lesson with less than 24 hours' notice?",
-    "user_query": "What happens if I need to cancel a lesson with less than 24 hours' notice?",
+    "question": "What happens if I need to cancel a lesson on short notice?  \nWill I still be charged if I cancel my lesson less than 24 hours in advance?  \nCan I reschedule a lesson without any fees if I give less than 24 hours' notice?",
+    "user_query": "What happens if I need to cancel a lesson on short notice?  \nWill I still be charged if I cancel my lesson less than 24 hours in advance?  \nCan I reschedule a lesson without any fees if I give less than 24 hours' notice?",
     "chunk_id": "policy_cancellation_001",
     "answer_orig": "Lessons that are canceled or moved with less than 24 hours' notice remain fully subject to standard billing charges.",
     "category": "business_policies",
     "subcategory": "cancellation"
   },
   {
-    "question": "What happens if I need to cancel a lesson less than 24 hours in advance?",
-    "user_query": "What happens if I need to cancel a lesson less than 24 hours in advance?",
+    "question": "What happens if I need to cancel a lesson less than 24 hours in advance?  \nWill I still be charged if I cancel my lesson on the same day?  \nWhat is the policy for last-minute cancellations for my tutoring sessions?",
+    "user_query": "What happens if I need to cancel a lesson less than 24 hours in advance?  \nWill I still be charged if I cancel my lesson on the same day?  \nWhat is the policy for last-minute cancellations for my tutoring sessions?",
     "chunk_id": "policy_cancellation_002",
     "answer_orig": "Because a cancellation on the morning of a lesson falls under the 24-hour notice limit, the session may unfortunately still be charged at the standard rate.",
     "category": "business_policies",
     "subcategory": "cancellation"
   },
   {
-    "question": "What happens if I need to cancel a lesson less than 24 hours before it starts?",
-    "user_query": "What happens if I need to cancel a lesson less than 24 hours before it starts?",
+    "question": "What happens if I need to cancel a lesson less than 24 hours before it starts?  \nWill I be charged if I cancel my session an hour in advance?  \nIs there a penalty for cancelling a lesson on the same day?",
+    "user_query": "What happens if I need to cancel a lesson less than 24 hours before it starts?  \nWill I be charged if I cancel my session an hour in advance?  \nIs there a penalty for cancelling a lesson on the same day?",
     "chunk_id": "policy_cancellation_003",
     "answer_orig": "Yes, cancelling an hour prior to start falls well inside the 24-hour boundary, meaning the session may still be charged.",
     "category": "business_policies",
     "subcategory": "cancellation"
   },
   {
-    "question": "What happens if I need to cancel a lesson on short notice?",
-    "user_query": "What happens if I need to cancel a lesson on short notice?",
+    "question": "What happens if I need to cancel a lesson less than 24 hours before it starts?  \nWill I be charged if I cancel my lesson with just a few hours' notice?  \nHow can I make sure I won't be billed for a missed lesson?",
+    "user_query": "What happens if I need to cancel a lesson less than 24 hours before it starts?  \nWill I be charged if I cancel my lesson with just a few hours' notice?  \nHow can I make sure I won't be billed for a missed lesson?",
     "chunk_id": "policy_cancellation_004",
     "answer_orig": "To successfully avoid being billed for a missed session, you must issue an explicit notice of cancellation at least 24 hours prior to the scheduled lesson time.",
     "category": "business_policies",
     "subcategory": "cancellation"
   },
   {
-    "question": "What happens if I need to cancel a lesson less than 24 hours in advance?",
-    "user_query": "What happens if I need to cancel a lesson less than 24 hours in advance?",
+    "question": "What happens if I need to cancel a lesson less than 24 hours in advance?  \nWill I still be charged if I reschedule my lesson the night before?  \nCan you explain the policy for cancelling lessons on short notice?",
+    "user_query": "What happens if I need to cancel a lesson less than 24 hours in advance?  \nWill I still be charged if I reschedule my lesson the night before?  \nCan you explain the policy for cancelling lessons on short notice?",
     "chunk_id": "policy_cancellation_005",
     "answer_orig": "If rescheduling the night before leaves less than 24 hours of total lead notice before the lesson's start time, it may still be billed at the normal rate.",
     "category": "business_policies",
     "subcategory": "cancellation"
   },
   {
-    "question": "What happens if I need to cancel a lesson less than 24 hours in advance?",
-    "user_query": "What happens if I need to cancel a lesson less than 24 hours in advance?",
+    "question": "What happens if I need to cancel a lesson less than 24 hours in advance?  \nWill I be charged if I cancel my lesson on the same day?  \nCan you explain the cancellation policy for lessons?",
+    "user_query": "What happens if I need to cancel a lesson less than 24 hours in advance?  \nWill I be charged if I cancel my lesson on the same day?  \nCan you explain the cancellation policy for lessons?",
     "chunk_id": "policy_cancellation_006",
     "answer_orig": "Yes, any cancellations executed with less than 24 hours of advance notice are fully subject to being charged at the standard rate.",
     "category": "business_policies",
     "subcategory": "cancellation"
   },
   {
-    "question": "What happens if I need to cancel a lesson with less than 24 hours notice?",
-    "user_query": "What happens if I need to cancel a lesson with less than 24 hours notice?",
+    "question": "What happens if I need to cancel a lesson less than 24 hours before it starts?  \nWill I still be charged if I cancel my lesson with only a few hours' notice?  \nCan you explain the cancellation policy for lessons?",
+    "user_query": "What happens if I need to cancel a lesson less than 24 hours before it starts?  \nWill I still be charged if I cancel my lesson with only a few hours' notice?  \nCan you explain the cancellation policy for lessons?",
     "chunk_id": "policy_cancellation_007",
     "answer_orig": "The minimum notification boundary is exactly 24 hours. Any cancellation made inside that 24-hour window may still be billed.",
     "category": "business_policies",
     "subcategory": "cancellation"
   },
   {
-    "question": "What happens if I need to cancel a lesson with less than 24 hours notice?",
-    "user_query": "What happens if I need to cancel a lesson with less than 24 hours notice?",
+    "question": "What happens if I need to cancel a lesson less than 24 hours before it starts?  \nWill I still be charged if I miss a lesson without giving 24 hours notice?  \nCan you explain the cancellation policy for lessons?",
+    "user_query": "What happens if I need to cancel a lesson less than 24 hours before it starts?  \nWill I still be charged if I miss a lesson without giving 24 hours notice?  \nCan you explain the cancellation policy for lessons?",
     "chunk_id": "policy_cancellation_008",
     "answer_orig": "Yes, if you miss or cancel a pre-scheduled lesson time with less than 24 hours of advance notice, the session remains fully subject to standard billing charges.",
     "category": "business_policies",
     "subcategory": "cancellation"
   },
   {
-    "question": "How do I make the payment for the lessons?",
-    "user_query": "How do I make the payment for the lessons?",
+    "question": "How do I make a payment for my child's lessons?  \nCan I use PayPal to pay for the tutoring sessions?  \nIs payment required before the lessons start?",
+    "user_query": "How do I make a payment for my child's lessons?  \nCan I use PayPal to pay for the tutoring sessions?  \nIs payment required before the lessons start?",
     "chunk_id": "policy_payment_001",
     "answer_orig": "Standard payment processing must be completed upfront prior to lessons using direct bank transfer or PayPal.",
     "category": "business_policies",
     "subcategory": "payment"
   },
   {
-    "question": "Can I pay for my child's lessons after they have taken place?",
-    "user_query": "Can I pay for my child's lessons after they have taken place?",
+    "question": "Can I pay for the lessons after they have taken place?  \nWhat payment methods do you accept for the tutoring sessions?  \nIs it possible to pay in installments instead of all at once?",
+    "user_query": "Can I pay for the lessons after they have taken place?  \nWhat payment methods do you accept for the tutoring sessions?  \nIs it possible to pay in installments instead of all at once?",
     "chunk_id": "policy_payment_002",
     "answer_orig": "No, arrears invoicing is not supported. All tuition fees must be explicitly cleared before any lessons actually take place.",
     "category": "business_policies",
     "subcategory": "payment"
   },
   {
-    "question": "Can I pay for the lessons using PayPal?",
-    "user_query": "Can I pay for the lessons using PayPal?",
+    "question": "Can I pay for the lessons using PayPal?  \nWhat payment methods do you accept for tutoring sessions?  \nIs it possible to make a bank transfer for the lesson fees?",
+    "user_query": "Can I pay for the lessons using PayPal?  \nWhat payment methods do you accept for tutoring sessions?  \nIs it possible to make a bank transfer for the lesson fees?",
     "chunk_id": "policy_payment_003",
     "answer_orig": "Yes, PayPal is fully supported as an approved payment option alongside direct bank transfer.",
     "category": "business_policies",
     "subcategory": "payment"
   },
   {
-    "question": "How do I make a payment for the tutoring sessions?",
-    "user_query": "How do I make a payment for the tutoring sessions?",
+    "question": "How do I make a payment for the tutoring sessions?  \nIs it possible to pay for lessons using PayPal?  \nWhat happens if I forget to make the payment before the lesson?",
+    "user_query": "How do I make a payment for the tutoring sessions?  \nIs it possible to pay for lessons using PayPal?  \nWhat happens if I forget to make the payment before the lesson?",
     "chunk_id": "policy_payment_004",
     "answer_orig": "Payments must always be settled upfront before your scheduled tutoring session begins.",
     "category": "business_policies",
     "subcategory": "payment"
   },
   {
-    "question": "How do I make the payment for the lessons?",
-    "user_query": "How do I make the payment for the lessons?",
+    "question": "How do I make a payment for the lessons?  \nCan I use PayPal to pay for my tutoring sessions?  \nIs payment required before each lesson or just the first one?",
+    "user_query": "How do I make a payment for the lessons?  \nCan I use PayPal to pay for my tutoring sessions?  \nIs payment required before each lesson or just the first one?",
     "chunk_id": "policy_payment_005",
     "answer_orig": "Payments are collected upfront before sessions take place. You can process this safely via standard bank transfer or PayPal.",
     "category": "business_policies",
     "subcategory": "payment"
   },
   {
-    "question": "What payment methods do you accept for the lessons?",
-    "user_query": "What payment methods do you accept for the lessons?",
+    "question": "What payment methods do you accept for the lessons?  \nCan I pay for the lessons using PayPal?  \nDo I need to pay in advance before the lessons start?",
+    "user_query": "What payment methods do you accept for the lessons?  \nCan I pay for the lessons using PayPal?  \nDo I need to pay in advance before the lessons start?",
     "chunk_id": "policy_payment_006",
     "answer_orig": "Yes, direct bank transfer is fully accepted alongside PayPal for clearing your advance invoices.",
     "category": "business_policies",
     "subcategory": "payment"
   },
   {
-    "question": "How do I make the payment for the tutoring lessons?",
-    "user_query": "How do I make the payment for the tutoring lessons?",
+    "question": "How do I make the payment for the tutoring lessons?  \nIs it possible to pay using a credit card instead of bank transfer or PayPal?  \nWhat happens if my payment doesn't go through before the lesson?",
+    "user_query": "How do I make the payment for the tutoring lessons?  \nIs it possible to pay using a credit card instead of bank transfer or PayPal?  \nWhat happens if my payment doesn't go through before the lesson?",
     "chunk_id": "policy_payment_007",
     "answer_orig": "All payments must be successfully processed upfront before any tutoring lessons take place.",
     "category": "business_policies",
     "subcategory": "payment"
   },
   {
-    "question": "How do I make a payment for my child's online math lessons?",
-    "user_query": "How do I make a payment for my child's online math lessons?",
+    "question": "How can I make a payment for the lessons?  \nIs it possible to pay using cash for the tutoring sessions?  \nWhat payment methods do you accept for online lessons?",
+    "user_query": "How can I make a payment for the lessons?  \nIs it possible to pay using cash for the tutoring sessions?  \nWhat payment methods do you accept for online lessons?",
     "chunk_id": "policy_payment_008",
     "answer_orig": "Since sessions are entirely online, physical cash is not accepted. Payments must be processed upfront using bank transfer or PayPal.",
     "category": "business_policies",
     "subcategory": "payment"
   },
   {
-    "question": "How do I book a lesson with Wali, and what information do I need to provide?",
-    "user_query": "How do I book a lesson with Wali, and what information do I need to provide?",
+    "question": "How do I book a lesson for my child with Wali?  \nWhat information do I need to provide when contacting Wali for tutoring?  \nCan I choose specific times for my child's lessons with Wali?",
+    "user_query": "How do I book a lesson for my child with Wali?  \nWhat information do I need to provide when contacting Wali for tutoring?  \nCan I choose specific times for my child's lessons with Wali?",
     "chunk_id": "booking_001",
     "answer_orig": "To initialize a booking, reach out directly via Phone or WhatsApp at 07400 123456. Make sure to share the student's current year group, exam board, current grade, target grade, and preferred time slots so a manual arrangement can be finalized.",
     "category": "booking_and_contact",
     "subcategory": "booking_process"
   },
   {
-    "question": "What information do I need to provide when I contact you for math tutoring?",
-    "user_query": "What information do I need to provide when I contact you for math tutoring?",
+    "question": "What information do I need to provide when I contact Wali for tutoring?  \nCan I specify the times that work best for my child's lessons?  \nHow can I find out which exam board my child is studying for?",
+    "user_query": "What information do I need to provide when I contact Wali for tutoring?  \nCan I specify the times that work best for my child's lessons?  \nHow can I find out which exam board my child is studying for?",
     "chunk_id": "booking_002",
     "answer_orig": "When reaching out, please make sure to detail the student's year group, their specific exam board (if known), current working grade, target goal grade, and your preferred lesson availability timings.",
     "category": "booking_and_contact",
     "subcategory": "booking_process"
   },
   {
-    "question": "What information do I need to provide to book a lesson with Wali?",
-    "user_query": "What information do I need to provide to book a lesson with Wali?",
+    "question": "What information do I need to provide when I contact Wali for a lesson?  \nHow can I reach Wali to book a tutoring session?  \nWhat should I include in my message to Wali about my child's math tutoring needs?",
+    "user_query": "What information do I need to provide when I contact Wali for a lesson?  \nHow can I reach Wali to book a tutoring session?  \nWhat should I include in my message to Wali about my child's math tutoring needs?",
     "chunk_id": "booking_003",
     "answer_orig": "To get started as fast as possible, send a message directly to Wali's WhatsApp or Phone at 07737889846. Include the student's current year group, target and working grades, exam board, and preferred times to arrange a slot.",
     "category": "booking_and_contact",
     "subcategory": "booking_process"
   },
   {
-    "question": "How can I book a lesson with Wali?",
-    "user_query": "How can I book a lesson with Wali?",
+    "question": "How can I book a lesson with Wali for my child?  \nIs it possible to contact Wali through WhatsApp for registration?  \nWhat information do I need to provide when setting up my student's profile?",
+    "user_query": "How can I book a lesson with Wali for my child?  \nIs it possible to contact Wali through WhatsApp for registration?  \nWhat information do I need to provide when setting up my student's profile?",
     "chunk_id": "booking_004",
     "answer_orig": "Yes, absolutely! WhatsApp is an excellent way to reach out directly at 07737889846 to register and set up your student's profile.",
     "category": "booking_and_contact",
     "subcategory": "booking_process"
   },
   {
-    "question": "How do I schedule a lesson with Wali?",
-    "user_query": "How do I schedule a lesson with Wali?",
+    "question": "How do I schedule a lesson with Wali?  \nIs there a way to see available time slots for tutoring?  \nCan I change my scheduled lesson time easily?",
+    "user_query": "How do I schedule a lesson with Wali?  \nIs there a way to see available time slots for tutoring?  \nCan I change my scheduled lesson time easily?",
     "chunk_id": "booking_005",
     "answer_orig": "No, there is no automated scheduling engine. All calendar coordination and lesson scheduling is arranged completely manually by texting or calling the tutor.",
     "category": "booking_and_contact",
     "subcategory": "booking_process"
   },
   {
-    "question": "What information do I need to provide to book a tutoring session with Wali?",
-    "user_query": "What information do I need to provide to book a tutoring session with Wali?",
+    "question": "What information do I need to provide to schedule a tutoring session for my child?  \nCan you tell me how to specify my child's current grade and target grade when booking a lesson?  \nIs there a specific format or details you need when I contact you to arrange a tutoring slot?",
+    "user_query": "What information do I need to provide to schedule a tutoring session for my child?  \nCan you tell me how to specify my child's current grade and target grade when booking a lesson?  \nIs there a specific format or details you need when I contact you to arrange a tutoring slot?",
     "chunk_id": "booking_006",
     "answer_orig": "To arrange a slot manually, please provide the student's school year group, their current exam board if known, current working grade, target grade, and your preferred lesson availability windows.",
     "category": "booking_and_contact",
     "subcategory": "booking_process"
   },
   {
-    "question": "How can I book a lesson with Wali?",
-    "user_query": "How can I book a lesson with Wali?",
+    "question": "How can I book a lesson with Wali?  \nWhat is the best way to contact Wali for questions about tutoring?  \nIs Wali available for lessons during the weekends?",
+    "user_query": "How can I book a lesson with Wali?  \nWhat is the best way to contact Wali for questions about tutoring?  \nIs Wali available for lessons during the weekends?",
     "chunk_id": "contact_001",
     "answer_orig": "You can reach Wali directly for bookings or general queries by sending a message or calling his Phone / WhatsApp line at 07737889846.",
     "category": "booking_and_contact",
     "subcategory": "contact_info"
   },
   {
-    "question": "How can I book a lesson with Wali?",
-    "user_query": "How can I book a lesson with Wali?",
+    "question": "How can I book a lesson with Wali?  \nWhat\u2019s the best way to reach Wali for tutoring inquiries?  \nCan I contact Wali through WhatsApp to schedule a lesson?",
+    "user_query": "How can I book a lesson with Wali?  \nWhat\u2019s the best way to reach Wali for tutoring inquiries?  \nCan I contact Wali through WhatsApp to schedule a lesson?",
     "chunk_id": "contact_002",
     "answer_orig": "You can contact Wali directly via Phone or WhatsApp by messaging or calling 07737889846.",
     "category": "booking_and_contact",
     "subcategory": "contact_info"
   },
   {
-    "question": "How can I book a lesson with Wali?",
-    "user_query": "How can I book a lesson with Wali?",
+    "question": "How can I book a lesson with Wali?  \nWhat is Wali's contact number for lessons?  \nCan I reach Wali through WhatsApp to schedule a session?",
+    "user_query": "How can I book a lesson with Wali?  \nWhat is Wali's contact number for lessons?  \nCan I reach Wali through WhatsApp to schedule a session?",
     "chunk_id": "contact_003",
     "answer_orig": "Wali's contact mobile phone number for direct text messages or calls is 07737889846.",
     "category": "booking_and_contact",
     "subcategory": "contact_info"
+  },
+  {
+    "question": "What qualifications and experience does Wali have in teaching math?  \nHow can Wali help my child improve their GCSE math grades?  \nWhat teaching methods does Wali use to engage students in KS3 math?",
+    "user_query": "What qualifications and experience does Wali have in teaching math?  \nHow can Wali help my child improve their GCSE math grades?  \nWhat teaching methods does Wali use to engage students in KS3 math?",
+    "chunk_id": "about_01",
+    "answer_orig": "Wali has over 15 years of math teaching experience.",
+    "category": "About",
+    "subcategory": "tutor_profile"
   }
 ]

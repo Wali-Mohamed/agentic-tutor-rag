@@ -27,16 +27,18 @@ st.set_page_config(
 st.title("🎓 Wali - GCSE & KS3 Math Tutor Assistant")
 st.caption("Ask questions about online math lessons, pricing, exam boards (AQA, Edexcel, OCR), and trial sessions.")
 
-# 1. Initialize winning RAG pipeline with Streamlit caching
+
+# Inside your init_rag_system() function:
 @st.cache_resource
 def init_rag_system():
     documents = load_faq_data()
-    _, vector_index = build_indices(documents)
+    # Unpack both indices
+    keyword_index, vector_index = build_indices(documents)
     
     client = OpenAI()
-    
     PROMPT_STRICT = "QUESTION: {question}\nCONTEXT: {context}\nAnswer ONLY using facts in the context. Be brief."
     
+    # Pass both indices to the AdvancedRAG class
     rag_system = VectorRAG(
         index=vector_index, 
         llm_client=client, 

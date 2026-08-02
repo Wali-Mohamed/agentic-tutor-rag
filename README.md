@@ -13,11 +13,39 @@ The application uses an advanced Retrieval-Augmented Generation (RAG) architectu
 * **Retrieval Engine:** Vector Search using `FastEmbed` (BAAI/bge-small-en-v1.5) to capture semantic intent, overcoming the vocabulary gaps of traditional Keyword Search.
 * **LLM Generation:** Powered by `gpt-4o-mini` using a strictly evaluated prompt template to prevent hallucination.
 
-## 📊 3. Retrieval Evaluation
-Multiple retrieval approaches were evaluated using a synthetic ground-truth dataset. 
-* **Keyword Search (minsearch):** Hit Rate @ 5: 60.00% | MRR: 0.3752
-* **Vector Search (FastEmbed):** Hit Rate @ 5: **71.30%** | MRR: **0.4277**
-* **Conclusion:** Vector Search outperformed Keyword search and was integrated into the final app. (See notebook: `evaluation.ipynb`).
+## 🧠 Architecture & Retrieval Strategy
+
+This project uses a custom-built, native RAG (Retrieval-Augmented Generation) pipeline without relying on heavy frameworks like LangChain. 
+
+### The Engine
+* **Embeddings:** ONNX-based embedding models for lightweight, fast vectorization.
+* **Vector Search:** Custom-built NumPy matrix dot-product search (`VectorIndex`) for exact control over the retrieval math.
+* **Generation:** OpenAI API (`gpt-4o-mini`) strictly prompted to answer using only provided context.
+* **Telemetry:** SQLite database integration for logging user queries, LLM responses, and capturing user feedback (thumbs up/down).
+
+---
+
+## 📊 Evaluation & Data-Driven Architecture
+
+During development, I built an evaluation pipeline to test three distinct retrieval strategies against a ground-truth dataset to measure **Hit Rate** and **Mean Reciprocal Rank (MRR)**.
+
+1. **Baseline (Vector Only):** Direct semantic search using the ONNX vector index.
+2. **Standard Advanced RAG:** LLM query rewriting + Hybrid Search (Vector + Minsearch keyword matching) + Cross-Encoder Reranking.
+3. **Agentic RAG:** An Agentic Query Planner (native OpenAI JSON mode) routing exact keywords to Minsearch and semantic intent to the Vector Index, followed by Cross-Encoder Reranking.
+
+### Evaluation Leaderboard:
+
+| System | Hit Rate | MRR |
+| :--- | :--- | :--- |
+| 🏆 **1. Baseline (Vector Only)** | **77.59%** | **0.5188** |
+| 3. New Agentic RAG | 68.97% | 0.3536 |
+| 2. Old Advanced RAG | 38.79% | 0.2464 |
+
+### The Engineering Decision
+
+Despite building a fully functional Agentic Hybrid RAG pipeline, the data proved that the **Baseline Vector Search** outperformed the more complex architectures for this specific math-tutoring dataset. 
+
+Following the engineering principle of deploying the simplest, fastest, and most cost-effective model that meets requirements, the final Streamlit application is powered purely by the optimized `VectorRAG` pipeline. This avoids LLM semantic drift, eliminates extra API costs for query planning, and significantly reduces user latency.
 
 ## ⚖️ 4. LLM Generation Evaluation
 The LLM generation phase was evaluated using the **LLM-as-a-Judge** standard (powered by `gpt-4o-mini` and Pydantic structured outputs) to measure semantic equivalence to the ground truth.
@@ -51,22 +79,69 @@ The project is fully reproducible and containerized.
 
 ## 🚀 Quick Start / Reproducibility Steps
 
+
 ### Prerequisites
-1. Install [Docker](https://docs.docker.com/get-docker/) or [uv](https://github.com/astral-sh/uv).
-2. Create a `.env` file in the root directory and add your OpenAI API key:
+1. **Docker Desktop:** [Install Docker Desktop](https://docs.docker.com/get-docker/) (Required for Docker option)
+2. **uv:** [Install uv](https://docs.astral.sh/uv/getting-started/installation/) (Required for local ingestion and local run)
+3. **Make (Optional but recommended):** We use a `Makefile` to simplify commands. 
+   * **Mac:** `xcode-select --install` or `brew install make`
+   * **Linux:** `sudo apt install make`
+   * **Windows:** Use [Scoop](https://scoop.sh/) (`scoop install make`) or run via WSL/Git Bash.
+
+   *(Note: If you do not have `make` installed, you can run the raw commands shown in the notes below).*
+
+4. **Environment Configuration:** Create a `.env` file in the root directory and add your OpenAI API key:
    ```env
    OPENAI_API_KEY=sk-your-api-key-here
 
+###  🚀 Quick Start / Reproducibility Steps
+Step 1: Ingest the Knowledge Base (Required First)
+Before starting the Streamlit application, run the ingestion pipeline to build the local DuckDB database (data/tutor_pipeline.duckdb):
 
-### Option A: Run via Docker (Recommended)
-You can build and run the entire application using the provided `Makefile`:
+Bash
+# 1. Install dependencies
+make setup
+
+# 2. Run dlt ingestion pipeline into DuckDB
+make ingest
+
+### Without make: 
+
+
+```bash
+uv sync 
+
+```
+followed by 
+
+```bash
+uv run python modules/ingest_pipeline.py
+```
+
+### Step 2: Run the Application
+Option A: Run via Docker (Recommended)
+Build and launch the containerized app (which mounts the ./data folder created in Step 1):
 
 ```bash
 make up
-
 ```
+Without make: run
 
-Access the app at: http://localhost:8501
+```bash
+ docker compose up --build -d
+```
+Access App: http://localhost:8501
+
+Stop Container:
+```bash
+
+ make down
+ 
+ ```
+ or 
+ ```bash
+ docker compose down
+ ```
 
 ### Option B: Run Locally (using uv)
 If you prefer to run it locally without Docker:
@@ -88,3 +163,11 @@ make ingest
 make run
 
 ```
+or without make
+```bash
+uv run streamlit run app.py
+```
+Access App: http://localhost:8501
+
+
+Stop App: Press Ctrl + C in your terminal.

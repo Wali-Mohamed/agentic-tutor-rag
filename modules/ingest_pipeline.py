@@ -3,7 +3,7 @@ import dlt
 
 @dlt.resource(write_disposition="replace")
 def faq_source():
-    # Simple relative path: Go up one folder (..), then into data/
+    # Simple relative path: Go into data/
     with open("data/knowledge-base.json", "r") as f:
         yield json.load(f)
 

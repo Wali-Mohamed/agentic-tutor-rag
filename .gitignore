@@ -141,6 +141,12 @@ mnesia/
 rabbitmq/
 rabbitmq-data/
 
+# Ignore Database files
+*.duckdb
+*.db
+
+
+
 # ActiveMQ
 activemq-data/
 
