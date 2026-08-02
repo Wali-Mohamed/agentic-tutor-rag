@@ -33,14 +33,14 @@ During development, I built an evaluation pipeline to test three distinct retrie
 2. **Standard Advanced RAG:** LLM query rewriting + Hybrid Search (Vector + Minsearch keyword matching) + Cross-Encoder Reranking.
 3. **Agentic RAG:** An Agentic Query Planner (native OpenAI JSON mode) routing exact keywords to Minsearch and semantic intent to the Vector Index, followed by Cross-Encoder Reranking.
 
-### Evaluation Leaderboard:
+## 📊 Evaluation Leaderboard
 
 | System | Hit Rate | MRR |
 | :--- | :--- | :--- |
 | 🏆 **1. Baseline (Vector Only)** | **77.59%** | **0.5188** |
+| **Keyword Search (`minsearch`)** | **62.07%** | **0.3996** |
 | 3. New Agentic RAG | 68.97% | 0.3536 |
 | 2. Old Advanced RAG | 38.79% | 0.2464 |
-
 ### The Engineering Decision
 
 Despite building a fully functional Agentic Hybrid RAG pipeline, the data proved that the **Baseline Vector Search** outperformed the more complex architectures for this specific math-tutoring dataset. 
@@ -68,6 +68,19 @@ The application monitors usage and collects user feedback:
 * **Feedback:** A thumbs-up/thumbs-down widget captures user satisfaction.
 * **Storage:** Chats and feedback are logged locally using **SQLite** (`data/chat_logs.db`).
 * **Dashboard:** A Streamlit dashboard (`pages/dashboard.py`) utilizes `Plotly` to display 5 distinct charts: Daily Traffic, User Satisfaction (Pie), Peak Usage Hours, Query Length Distribution, and Feedback Trends over time.
+
+## 🖼️ Dashboard Gallery
+
+Here is a preview of the monitoring and analysis dashboard:
+
+<p align="center">
+  <img src="pages/img1.png" width="48%" alt="Dashboard Preview 1">
+  <img src="pages/img2.png" width="48%" alt="Dashboard Preview 2">
+</p>
+<p align="center">
+  <img src="pages/img3.png" width="48%" alt="Dashboard Preview 3">
+  <img src="pages/img4.png" width="48%" alt="Dashboard Preview 4">
+</p>
 
 ## 🐳 8. Reproducibility & Containerization
 The project is fully reproducible and containerized.
