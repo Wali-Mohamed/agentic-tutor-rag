@@ -37,7 +37,6 @@ def init_db():
 
 # Notice the two new optional parameters with default values
 def log_chat(user_query, bot_response, total_tokens=0, llm_judge_rating="Not Evaluated"):
-    """Save a conversation and return its ID."""
     log_id = str(uuid.uuid4())
     conn = sqlite3.connect(DB_PATH)
     conn.execute(
