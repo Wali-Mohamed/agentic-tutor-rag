@@ -112,20 +112,14 @@ Step 1: Ingest the Knowledge Base (Required First)
 Before starting the Streamlit application, run the ingestion pipeline to build the local DuckDB database (data/tutor_pipeline.duckdb):
 
 Bash
-# 1. Install dependencies
-make setup
 
-# 2. Run dlt ingestion pipeline into DuckDB
-make ingest
-
-### Without make: 
-
-
+# 1. Run dlt ingestion pipeline into DuckDB
 ```bash
-uv sync 
-
+make ingest
 ```
-followed by 
+
+### OR if you do not have Makefile installed: 
+
 
 ```bash
 uv run python modules/ingest_pipeline.py
@@ -164,19 +158,31 @@ If you prefer to run it locally without Docker:
 make setup
 
 ```
+### OR if you do not have Makefile installed: 
+
+
+```bash
+uv sync 
+
+```
+followed by 
 
 # 2. Run the dlt ingestion pipeline (creates the DuckDB database)
 
 ```bash
 make ingest
 ```
+### OR without Makefile
 
+```bash
+uv run python modules/ingest_pipeline.py
+```
 # 3. Launch the Streamlit app
 ```bash
 make run
 
 ```
-or without make
+### Or without Makefile:
 ```bash
 uv run streamlit run app.py
 ```
