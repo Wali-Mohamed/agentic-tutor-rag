@@ -6,23 +6,87 @@ An Agentic RAG virtual assistant for GCSE math tutoring, featuring tool calling,
 ## 🎯 1. Problem Description
 Navigating independent tutoring services can be confusing for parents and students. They frequently ask the same questions: *"Do you cover Higher Tier AQA?"*, *"How much is a 1-hour session?"*, or *"Do you provide homework?"* 
 Wali solves this by acting as a 24/7 automated assistant, answering logistical and academic FAQ questions instantly by retrieving facts from a structured knowledge base, saving the tutor hours of administrative work.
-
 ## 🧠 2. RAG Flow
-The application uses an advanced Retrieval-Augmented Generation (RAG) architecture:
-* **Knowledge Base:** JSON FAQ data.
-* **Retrieval Engine:** Vector Search using `FastEmbed` (BAAI/bge-small-en-v1.5) to capture semantic intent, overcoming the vocabulary gaps of traditional Keyword Search.
-* **LLM Generation:** Powered by `gpt-4o-mini` using a strictly evaluated prompt template to prevent hallucination.
 
-## 🧠 Architecture & Retrieval Strategy
+The application uses a custom Retrieval-Augmented Generation (RAG) architecture designed to retrieve relevant mathematical tutoring content before generating an answer.
 
-This project uses a custom-built, native RAG (Retrieval-Augmented Generation) pipeline without relying on heavy frameworks like LangChain. 
+The overall pipeline consists of three main stages:
+
+1. **Retrieval:** Relevant content is retrieved from the knowledge base using semantic vector search.
+2. **Context Construction:** Retrieved chunks are assembled into a structured prompt.
+3. **Generation:** `gpt-4o-mini` generates the final response using the retrieved context and predefined instructions.
+
+### High-Level RAG Architecture
+
+![High-Level RAG Architecture](pages/RAG.png)
+
+*Figure 1: High-level RAG pipeline showing the flow from user query through retrieval, context construction, and LLM generation.*
+
+### Knowledge Base
+
+The knowledge base consists of structured JSON FAQ and tutoring data containing the information available to the RAG system.
+
+### Retrieval Engine
+
+The application uses semantic vector search with `FastEmbed` and the `BAAI/bge-small-en-v1.5` embedding model. This allows the system to retrieve content based on semantic meaning rather than relying solely on exact keyword matches.
+
+This helps address vocabulary differences between a user's query and the wording used in the knowledge base.
+
+### LLM Generation
+
+The retrieved context is passed to `gpt-4o-mini` through a controlled prompt template. The model is instructed to generate answers using the retrieved context rather than relying on unsupported information.
+
+---
+
+## 🏗️ Architecture & Retrieval Strategy
+
+This project implements a custom, lightweight RAG pipeline without relying on heavy orchestration frameworks such as LangChain. The main components are implemented directly to provide greater control over retrieval, prompting, evaluation, and observability.
+
+### Retrieval and Generation Pipeline
+
+At the implementation level, a user query passes through the following flow:
+
+```text
+User Query
+    ↓
+Query Processing
+    ↓
+Vector Search
+    ↓
+Relevant Chunks
+    ↓
+Context Construction
+    ↓
+Prompt Construction
+    ↓
+OpenAI LLM
+    ↓
+Final Answer
+```
+
+The functional relationship between these components is shown below.
+
+![RAG Functional Flow](pages/RAGfunctions.png)
+
+*Figure 2: Functional relationship between the retrieval, prompt-building, and generation components.*
 
 ### The Engine
-* **Embeddings:** ONNX-based embedding models for lightweight, fast vectorization.
-* **Vector Search:** Custom-built NumPy matrix dot-product search (`VectorIndex`) for exact control over the retrieval math.
-* **Generation:** OpenAI API (`gpt-4o-mini`) strictly prompted to answer using only provided context.
-* **Telemetry:** SQLite database integration for logging user queries, LLM responses, and capturing user feedback (thumbs up/down).
 
+- **Embeddings:** ONNX-based embedding models provide lightweight and efficient vectorization.
+- **Vector Search:** A custom `VectorIndex` uses NumPy matrix operations for similarity search, providing direct control over the retrieval process.
+- **Generation:** The OpenAI API (`gpt-4o-mini`) generates responses using the retrieved context and controlled prompt instructions.
+- **Telemetry:** A SQLite database records user queries, generated responses, and user feedback such as thumbs up/down.
+
+### Why a Custom RAG Pipeline?
+
+Rather than hiding the retrieval process behind a framework, the project implements the core RAG components directly. This makes it possible to:
+
+- control the embedding and retrieval process;
+- inspect and evaluate retrieval independently from generation;
+- experiment with different retrieval strategies;
+- add query planning and agentic behaviour;
+- instrument the pipeline for monitoring and evaluation;
+- understand exactly how retrieved context reaches the LLM.
 ---
 ## 📊 3. Evaluation Framework
 
@@ -122,6 +186,48 @@ The project is fully reproducible and containerized.
 * Because the architecture utilizes local file-based databases (DuckDB & SQLite), no heavy external database containers are required. Docker Compose seamlessly mounts the `./data` volume so all databases and logs persist across container restarts.
 
 ---
+## Repository Structure
+
+```text
+agentic-tutor-rag/
+├── data/
+│   ├── chat_logs.db
+│   ├── ground_truth.json
+│   ├── knowledge-base.json
+│   └── tutor_pipeline.duckdb
+├── modules/
+│   ├── db.py
+│   ├── ground_truth.py
+│   ├── ingest_pipeline.py
+│   ├── ingest.py
+│   └── rag_helper.py
+├── pages/
+│   ├── dashboard.py
+│   ├── img1.png
+│   ├── img2.png
+│   ├── img3.png
+│   ├── img4.png
+│   ├── RAG.png
+│   └── RAGfunctions.png
+├── .env
+├── .gitignore
+├── .python-version
+├── 1-retrieval-flow.ipynb
+├── 2-retrieval-evaluation.ipynb
+├── 3-LLM-Evaluation.ipynb
+├── app.py
+├── chat_logs.db
+├── docker-compose.yaml
+├── Dockerfile
+├── LICENSE
+├── main.py
+├── Makefile
+├── pyproject.toml
+├── README.md
+├── resetdb.py
+└── uv.lock
+```
+
 # 🚀 Quick Start / Reproducibility
 
 ## 1. Clone the Repository
