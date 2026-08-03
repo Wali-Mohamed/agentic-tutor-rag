@@ -24,23 +24,56 @@ This project uses a custom-built, native RAG (Retrieval-Augmented Generation) pi
 * **Telemetry:** SQLite database integration for logging user queries, LLM responses, and capturing user feedback (thumbs up/down).
 
 ---
+## 📊 3. Evaluation Framework
 
-## 📊 Evaluation & Data-Driven Architecture
+To compare different retrieval approaches, I built an evaluation pipeline using a manually curated ground-truth dataset. Each system was evaluated using two standard information retrieval metrics:
 
-During development, I built an evaluation pipeline to test three distinct retrieval strategies against a ground-truth dataset to measure **Hit Rate** and **Mean Reciprocal Rank (MRR)**.
+- **Hit Rate** – Percentage of queries where the correct document appears in the retrieved results.
+- **Mean Reciprocal Rank (MRR)** – Measures how highly the correct document is ranked, rewarding systems that return the correct answer earlier.
 
-1. **Baseline (Vector Only):** Direct semantic search using the ONNX vector index.
-2. **Standard Advanced RAG:** LLM query rewriting + Hybrid Search (Vector + Minsearch keyword matching) + Cross-Encoder Reranking.
-3. **Agentic RAG:** An Agentic Query Planner (native OpenAI JSON mode) routing exact keywords to Minsearch and semantic intent to the Vector Index, followed by Cross-Encoder Reranking.
+### Retrieval Systems Evaluated
 
-## 📊 Evaluation Leaderboard
+#### Vector-Based Retrieval
+These systems all use semantic vector search as their primary retrieval method.
 
-| System | Hit Rate | MRR |
-| :--- | :--- | :--- |
-| 🏆 **1. Baseline (Vector Only)** | **77.59%** | **0.5188** |
-| **Keyword Search (`minsearch`)** | **62.07%** | **0.3996** |
-| 3. New Agentic RAG | 68.97% | 0.3536 |
-| 2. Old Advanced RAG | 38.79% | 0.2464 |
+1. **Baseline (Vector Search Only)**
+   - Direct semantic vector search using the ONNX embedding index.
+   - No query rewriting, reranking, or agentic reasoning.
+
+2. **Advanced RAG**
+   - LLM query rewriting.
+   - Semantic vector retrieval.
+   - Cross-Encoder reranking.
+
+3. **Agentic RAG**
+   - OpenAI JSON-mode query planner.
+   - Dynamically analyses the user query before retrieval.
+   - Semantic vector retrieval.
+   - Cross-Encoder reranking.
+
+#### Keyword-Based Retrieval
+
+4. **Keyword Search (Minsearch)**
+   - Traditional lexical search using Minsearch.
+   - No semantic embeddings.
+
+---
+
+## 📈 Evaluation Results
+
+| Rank | Retrieval System | Retrieval Type | Hit Rate | MRR |
+|------|------------------|----------------|---------:|----:|
+| 🥇 | **Baseline (Vector Search)** | Semantic Vector | **77.59%** | **0.5188** |
+| 🥈 | **Agentic RAG** | Semantic Vector | **68.97%** | **0.3536** |
+| 🥉 | **Keyword Search (Minsearch)** | Keyword | **62.07%** | **0.3996** |
+| 4 | **Advanced RAG** | Semantic Vector | **38.79%** | **0.2464** |
+
+### Key Findings
+
+- The **Baseline Vector Search** achieved the highest overall performance, with the best **Hit Rate (77.59%)** and **MRR (0.5188)**.
+- **Keyword Search (Minsearch)** outperformed the Advanced RAG pipeline on both evaluation metrics, demonstrating that lexical retrieval remains effective for exact-term queries.
+- The **Agentic RAG** pipeline substantially improved upon the original Advanced RAG, although it did not surpass the simple vector-only baseline.
+- These results highlight that adding more sophisticated retrieval logic does not automatically improve performance, reinforcing the importance of rigorous evaluation when designing RAG systems.
 ### The Engineering Decision
 
 Despite building a fully functional Agentic Hybrid RAG pipeline, the data proved that the **Baseline Vector Search** outperformed the more complex architectures for this specific math-tutoring dataset. 
@@ -89,104 +122,189 @@ The project is fully reproducible and containerized.
 * Because the architecture utilizes local file-based databases (DuckDB & SQLite), no heavy external database containers are required. Docker Compose seamlessly mounts the `./data` volume so all databases and logs persist across container restarts.
 
 ---
+# 🚀 Quick Start / Reproducibility
 
-## 🚀 Quick Start / Reproducibility Steps
+## 1. Clone the Repository
 
+```bash
+git clone https://github.com/Wali-Mohamed/agentic-tutor-rag.git
+cd agentic-tutor-rag
+```
 
-### Prerequisites
-1. **Docker Desktop:** [Install Docker Desktop](https://docs.docker.com/get-docker/) (Required for Docker option)
-2. **uv:** [Install uv](https://docs.astral.sh/uv/getting-started/installation/) (Required for local ingestion and local run)
-3. **Make (Optional but recommended):** We use a `Makefile` to simplify commands. 
-   * **Mac:** `xcode-select --install` or `brew install make`
-   * **Linux:** `sudo apt install make`
-   * **Windows:** Use [Scoop](https://scoop.sh/) (`scoop install make`) or run via WSL/Git Bash.
+> **Alternative:** You can also open the repository directly in **GitHub Codespaces** by clicking **Code → Codespaces → Create codespace on main**.
 
-   *(Note: If you do not have `make` installed, you can run the raw commands shown in the notes below).*
+---
 
-4. **Environment Configuration:** Create a `.env` file in the root directory and add your OpenAI API key:
-   ```env
-   OPENAI_API_KEY=sk-your-api-key-here
+## 2. Prerequisites
 
-###  🚀 Quick Start / Reproducibility Steps
-Step 1: Ingest the Knowledge Base (Required First)
-Before starting the Streamlit application, run the ingestion pipeline to build the local DuckDB database (data/tutor_pipeline.duckdb):
+Before running the project, install the following tools:
 
-Bash
+### Docker Desktop *(Required for the Docker option)*
 
-# 1. Run dlt ingestion pipeline into DuckDB
+https://docs.docker.com/get-docker/
+
+### uv *(Required for local setup and ingestion)*
+
+https://docs.astral.sh/uv/getting-started/installation/
+
+### Make *(Optional but recommended)*
+
+A `Makefile` is included to simplify common commands.
+
+**macOS**
+```bash
+xcode-select --install
+```
+
+or
+
+```bash
+brew install make
+```
+
+**Linux**
+```bash
+sudo apt install make
+```
+
+**Windows**
+
+Install via Scoop:
+
+```powershell
+scoop install make
+```
+
+or use **WSL** or **Git Bash**.
+
+> **Note:** If you don't have `make`, equivalent commands are provided throughout this guide.
+
+---
+
+## 3. Configure Environment Variables
+
+Create a `.env` file in the project root and add your OpenAI API key:
+
+```env
+OPENAI_API_KEY=sk-your-api-key-here
+```
+
+---
+
+# Option A: Run with Docker (Recommended)
+
+### Step 1: Build the Knowledge Base
+
+Before launching the application, build the local DuckDB knowledge base:
+
 ```bash
 make ingest
 ```
 
-### OR if you do not have Makefile installed: 
-
+**Without Make:**
 
 ```bash
 uv run python modules/ingest_pipeline.py
 ```
 
-### Step 2: Run the Application
-Option A: Run via Docker (Recommended)
-Build and launch the containerized app (which mounts the ./data folder created in Step 1):
+This creates:
+
+```
+data/tutor_pipeline.duckdb
+```
+
+---
+
+### Step 2: Build and Start the Application
 
 ```bash
 make up
 ```
-Without make: run
+
+**Without Make:**
 
 ```bash
- docker compose up --build -d
+docker compose up --build -d
 ```
-Access App: http://localhost:8501
 
-Stop Container:
+Open the application:
+
+```
+http://localhost:8501
+```
+
+---
+
+### Stop the Docker Containers
+
 ```bash
+make down
+```
 
- make down
- 
- ```
- or 
- ```bash
- docker compose down
- ```
+**Without Make:**
 
-### Option B: Run Locally (using uv)
-If you prefer to run it locally without Docker:
+```bash
+docker compose down
+```
 
-# 1. Install dependencies
+---
+
+# Option B: Run Locally
+
+### Step 1: Install Dependencies
+
 ```bash
 make setup
-
 ```
-### OR if you do not have Makefile installed: 
 
+**Without Make:**
 
 ```bash
-uv sync 
-
+uv sync
 ```
-followed by 
 
-# 2. Run the dlt ingestion pipeline (creates the DuckDB database)
+---
+
+### Step 2: Build the Knowledge Base
 
 ```bash
 make ingest
 ```
-### OR without Makefile
+
+**Without Make:**
 
 ```bash
 uv run python modules/ingest_pipeline.py
 ```
-# 3. Launch the Streamlit app
-```bash
-make run
+
+This creates:
 
 ```
-### Or without Makefile:
+data/tutor_pipeline.duckdb
+```
+
+---
+
+### Step 3: Launch the Streamlit Application
+
+```bash
+make run
+```
+
+**Without Make:**
+
 ```bash
 uv run streamlit run app.py
 ```
-Access App: http://localhost:8501
 
+Open the application:
 
-Stop App: Press Ctrl + C in your terminal.
+```
+http://localhost:8501
+```
+
+---
+
+### Stop the Application
+
+Press **Ctrl + C** in the terminal running Streamlit.
