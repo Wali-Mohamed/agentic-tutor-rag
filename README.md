@@ -410,7 +410,15 @@ http://localhost:8501
 ```
 
 ---
+### 📊 Step 4: Simulate Dashboard Data (For Reviewers)
+Since the database is excluded from version control, your dashboard will initially be empty. To quickly populate the SQLite database and see the Streamlit monitoring charts in action, open a new terminal window while the app is running and execute the synthetic data generator:
 
-### Stop the Application
+```bash
+uv run python generate_data.py
+```
+> **Note:** This script pushes realistic Q&A pairs into the database continuously. Leave it running in the background while you explore the `pages/dashboard.py` interface to watch the charts update dynamically! Press `Ctrl+C` in the terminal to stop it.
+
+
+### Stop the Streamlit Application
 
 Press **Ctrl + C** in the terminal running Streamlit.
