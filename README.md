@@ -413,6 +413,14 @@ http://localhost:8501
 ### 📊 Step 4: Simulate Dashboard Data (For Reviewers)
 Since the database is excluded from version control, your dashboard will initially be empty. To quickly populate the SQLite database and see the Streamlit monitoring charts in action, open a new terminal window while the app is running and execute the synthetic data generator:
 
+
+If using codespaces, you need to run this first
+
+```bash
+sudo chown -R $USER:$USER data/
+```
+followed by 
+
 ```bash
 uv run python generate_data.py
 ```
