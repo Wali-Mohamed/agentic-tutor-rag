@@ -355,7 +355,7 @@ docker compose down
 
 ---
 
-# Option B: Run Locally
+# Option B: Run Locally (This method is faster)
 
 ### Step 1: Install Dependencies
 
