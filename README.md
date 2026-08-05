@@ -1,7 +1,8 @@
 # agentic-tutor-rag
 An Agentic RAG virtual assistant for GCSE math tutoring, featuring tool calling, evaluation, and monitoring. Built for LLM Zoomcamp 2026.
 
-
+## Video Demo
+https://www.youtube.com/watch?v=fO6K412ENFI
 
 ## 🎯 1. Problem Description
 Navigating independent tutoring services can be confusing for parents and students. They frequently ask the same questions: *"Do you cover Higher Tier AQA?"*, *"How much is a 1-hour session?"*, or *"Do you provide homework?"* 
