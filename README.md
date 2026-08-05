@@ -155,6 +155,8 @@ The interface is built with **Streamlit**, featuring:
 * A conversational chat UI using `st.chat_message`.
 * Session state memory to preserve chat history.
 * A multi-page layout containing the main bot and a dedicated analytics dashboard.
+### Cloud Deployment
+https://agentic-tutor-bot-843374249726.europe-west1.run.app/
 
 ## 🚰 6. Ingestion Pipeline
 Data ingestion is fully automated using **dlt (Data Load Tool)**.
